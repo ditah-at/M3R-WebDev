@@ -1,0 +1,596 @@
+﻿@import url(/fonts/OpenSans/OpenSans.css);
+@import url(/fonts/DroidSerif/DroidSerif.css);
+
+/*
+###### Typography
+*/
+html{
+    background-color:#475862;
+    overflow-x: hidden;
+}
+
+body{
+    font-family:"Open Sans", Arial, Helvetica, sans-serif;
+    background-color:#e8e8e8;
+    color:#474747;
+    overflow-x: hidden;
+}
+/*farben im main bereich sollen fÃ¼r alle projekte gleichbleiben wg. kontrast und einheitlichkeit*/
+
+h1,
+h3,
+h4,
+h5,
+h6{
+    font-family:"Droid Serif", Georgia, "Times New Roman", Times, serif;
+}
+
+h1{
+    font-size:200%;
+    margin-bottom:0;
+}
+
+h2{
+    font-size:140%;
+    font-family:"Open Sans", Arial, Helvetica, sans-serif;
+    font-style:italic;
+    margin-bottom:0.8em;
+    margin-top:0.4em;
+}
+
+h3{    
+    color:#fcba03; /*projektfarbe!*/
+    font-size:130%;
+    line-height:1.8em;
+}
+h3.objekt{
+    margin-top:5px;
+}
+
+h4{
+    font-size:120%;
+    color:#333333;
+    font-family:"Open Sans", Arial, Helvetica, sans-serif;
+    font-style:italic;
+}
+
+h5{
+    font-family:"Open Sans", Arial, Helvetica, sans-serif;
+    color:#333333;
+
+}
+
+
+
+h6{
+    font-family:"Open Sans", Arial, Helvetica, sans-serif;
+    color:#333333;
+    font-size:100%;
+    line-height:1.5;
+
+}
+
+blockquote,
+cite,
+q{
+    font-family:"Open Sans", Arial, Helvetica, sans-serif;
+}
+
+a{
+    color:#fcba03; /*projektfarbe!*/
+}
+
+a:hover,
+a:focus{
+    background-color:transparent;
+    color:inherit;
+}
+
+.color{
+    color:#fcba03; /*projektfarbe!*/
+}
+
+/*
+###### Header
+*/
+@media (max-width: 768px){
+    header h1{
+        font-size: 160%; 
+    }
+      header h2{
+        font-size: 130%; 
+    }
+    .logoUni {
+    height: 45px;
+}
+
+}
+@media (max-width: 568px){
+    header h1{
+        font-size: 140%; 
+    }
+      header h2{
+        font-size: 100%; 
+    }
+}
+
+div.unilogo {
+    float: right;
+    margin-top:37px;
+}
+
+div a.unilogo {
+    width: 73px; 
+    height: 62px; 
+    text-decoration: none; 
+    background: none;
+}
+
+header {
+    background-color: #fcba03;/*projektfarbe!*/
+    overflow: hidden;
+     height: 125px;
+   
+}
+
+header h1, header h2, div.language  {
+    color: #ffffff;
+}
+header h1{
+    margin-top:37px;
+}
+div.language {
+    text-align:right;
+    
+    padding-bottom:10px;
+    font-size: 80%;
+}
+div.language a, div.language a:hover, div.language a:focus {
+    color:#ffffff;
+    background:transparent;
+    
+}
+
+/*
+###### Navigation
+siehe navbar.css
+*/
+
+
+/*
+###### Main
+
+*/
+main a:hover, main a:focus {
+    background-color:transparent;
+    color:#fcba03; /*projektfarbe!*/
+}
+
+
+
+main p {
+line-height:1.5;
+margin-bottom:15px;
+
+}
+
+/*
+###### Footer
+
+*/
+
+footer {
+    background-color: #475862; 
+    padding-bottom: 30px;
+    margin-top: 0;
+    color: #ffffff;
+}
+
+footer h6 {
+     color: inherit;
+     background-color: inherit;
+     border-bottom: 1px solid #ffffff;
+     margin-bottom: 1em;
+}
+
+footer a {
+    color: inherit;
+}
+
+
+img.footer_icons{
+    padding-right:10px;
+    padding-bottom:10px;
+}
+
+.icons a:hover, .icons a:focus {text-decoration:none;}
+/*
+###### Boxen
+*/
+
+
+.panel{
+    box-shadow:none; 
+    border-radius:0;
+    padding-right:20px;
+    padding-left:20px;
+    padding-bottom:15px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.analog{
+    padding-bottom:15px;
+}
+
+.panel-with-image{
+    box-shadow:none; 
+    border-radius:0;
+    padding-right:0px;
+    padding-left:0px;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+
+
+/*
+###### Bilder
+*/
+
+
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9{
+    padding-left:10px;
+    padding-right:10px
+}
+
+
+
+
+
+/*
+###### Suche und Kontextliste
+*/
+
+.list-group-submenu {
+  margin-left:20px;
+}
+.chevron-down-context{
+    font-size:10px; 
+    padding-right:5px;
+}
+.context-item-number{
+    float:right;
+    color:#fcba03; /*projektfarbe*/
+}
+
+p.results{
+    float:right; bottom: 0; right: 0; font-size:12px;
+}
+
+li.results{
+    position:relative;overflow:hidden;border-bottom:dotted 1px;padding:5px 0 5px 0;margin:5px 0 5px 0;
+}
+
+img.results{
+    float: left; padding-right: 10px; padding-bottom:5px;
+}
+
+span.results{
+    vertical-align: top; padding-right: 10px;
+}
+span.permalink{
+    font-size:12px;
+}
+.icons{
+    margin-left:5px;
+}
+span.icon-span{
+    position: absolute; bottom: 0; right: 0; padding:5px;
+}
+/*.form-control, .input-group-addon, .btn{
+    border-radius:0;
+}*/
+
+#search a, #search a:hover, #search a:focus, #results a, #results a:hover, #results a:focus {
+    color:#333333;
+    text-decoration:none;
+}
+
+
+#search p, #results p {margin-bottom:5px;}
+
+#search-navi a, #search-navi a:hover, #search-navi a:focus {
+color:#fcba03;/*projektfarbe!*/
+}
+
+
+.result {
+list-style:none; 
+padding:0;
+margin:0;
+}
+
+
+/*Accordion*/
+
+.accordion{
+    padding:0;
+}
+.sublinks{
+    max-height: 270px;
+    overflow-y: scroll;
+}
+.accordion .list-group-item{
+    border-radius:0;
+}
+
+
+
+/*
+Änderungen für dic
+ */
+ 
+ .logo{ 
+height: 40px;
+margin-right:2em
+
+    
+}
+
+.logol{
+    height:35px;
+}
+
+
+/*Kacheln*/
+
+.kachel_link:hover {
+    opacity:1;
+    cursor:pointer;
+    color:yellow;
+}
+
+/*Headerbox*/
+.headerbox{
+    height: 75px;
+    border-bottom: 5px solid #E8E8E8;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 20px solid #E8E8E8;
+    background-color: #F4F5F6;
+    
+}
+
+#auswahl:hover { background-color: white; 
+cursor:auto;
+border-color:#ccc
+    
+}
+#auswahl2:hover { background-color: white; 
+cursor:auto;
+border-color:#ccc
+    
+}
+
+#auswahl:focus { background-color: white; 
+cursor:auto;
+border-color:#ccc
+    
+}
+
+/* Textformatierung*/
+
+.Absatz  {
+    margin-bottom:20px;
+}
+
+.Bühnenbild  {
+    margin-bottom:50px;
+}
+
+/* panel-heading */
+
+.panel-heading {
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+}
+
+.panel-heading + .panel-collapse > .panel-body {
+    border-top: #475862 1px solid !important
+}
+
+#Vergleich .panel-body {
+    border-top: #475862 1px solid !important
+}
+
+.panel-default > .panel-heading {
+    background-color:#F4F5F6
+}
+
+/* Link_Fassungsvergleich */
+
+.Link_Fassungsvergleich:hover{
+    text-decoration:none
+}
+
+.active_Link{
+    background-color:#9BCCEC;
+}
+
+.fassung{
+    font-family: 'Droid Serif',Georgia,'Times New Roman',Times,serif;
+    font-size:16px;
+}
+
+.btn-primary {
+    background: #e6e6e6;
+    
+    color: #ffffff;
+}
+
+
+
+
+    .tooltip-inner {
+    max-width: 750px;
+    /* If max-width does not work, try using width instead 
+    width: 350px; */
+
+}
+
+/* .Auswahl_dropdown li:first-child a  {
+    border-top-left-radius: 3px !important;
+    border-top-right-radius: 3px !important;
+}
+
+.Auswahl_dropdown li:last-child a  {
+    border-bottom-left-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
+}
+
+ */
+ 
+
+
+
+#list tr:hover {background-color:transparent}
+
+.btn-custom {
+    background: #4698CB;
+    color: #ffffff;
+}
+
+ .btn {
+  border-radius:0;
+}
+
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active, .btn-custom.active, .open > .dropdown-toggle.btn-custom {
+    opacity:0.7;
+    color: #ffffff;
+    background: #4698CB;
+}
+ 
+.btn-custom:active, .btn-custom.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+.dropdown-menu{
+    border-radius:0;
+}
+
+#feedback:hover{
+opacity:1 !important
+}
+
+.code_feedback:hover{
+opacity:1 !important;
+cursor:pointer
+}
+
+:checked + label img {
+opacity:1 !important;  
+}
+
+label {
+  display: block;
+  position: relative;
+  
+}
+
+label::before {
+  opacity:0.5;
+  color: white;
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  border: 1px solid red;
+  position: absolute;
+  top: -5px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 18px;
+  transition-duration: 0.4s;
+  transform: scale(0);
+}
+
+
+:checked + label:before {
+  content: "✓";
+  font-size:10pt;
+  background-color: red;
+  transform: scale(1);
+}
+ 
+
+:checked + label img {
+ 
+  z-index: -1;
+}
+
+.anker:target::before {
+content:"";
+display:block;
+height:55px; /* fixed header height*/
+margin:-55px 0 0; /* negative fixed header height */
+}
+
+.anker2:target::before {
+content:"";
+display:block;
+height:124px; /* fixed header height*/
+margin:-124px 0 0; /* negative fixed header height */
+}
+
+
+
