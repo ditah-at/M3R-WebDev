@@ -7,7 +7,7 @@
     xmlns:xlink="https://www.w3.org/1999/xlink" version="2.0">
     <xsl:output method="html" encoding="utf-8" indent="yes"/>
     <!-- Include static.xsl -->
-    <xsl:include href="http://glossa.uni-graz.at/gamsdev/clausen/mmmr/mmmr-static.xsl"/>
+    <xsl:include href="http://www.ditah.at/M3R-WebDev/mmmr-static.xsl"/>
     <xsl:variable name="idno" select="'http://glossa.uni-graz.at/o:k4984.1r'"/>
     <!-- Variable PID -->
     <xsl:variable name="pid" select="mets:mets/@OBJID"/>
