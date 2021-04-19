@@ -237,7 +237,7 @@
                                 test="$cid = 'context:ohad' and $context != 'analog' and $context != 'digital' and $context != 'forschungsergebnisse' and $mode != 'imprint'">
                                 <xsl:attribute name="class">active</xsl:attribute>
                             </xsl:if>
-                            <a href="">Home</a>
+                            <a href="http://glossa.uni-graz.at/context:mmmr">Home</a>
                         </li>
                         <!-- Historisch-kritische Ausgabe -->
                         <li class="dropdown">
