@@ -32,6 +32,7 @@
                     <section class="row">
                         <article class="col-md-10 hidden-xs hidden-sm">
                             <div class="panel">
+                                <h1>M3R-Projekt</h1>
                                 <xsl:choose>
                                     <xsl:when test="$model=&apos;BibTeX&apos;">
                                         <xsl:apply-templates select="bibtex:file"></xsl:apply-templates>
