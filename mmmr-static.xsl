@@ -11,6 +11,9 @@
     <xsl:param name="locale"/>
     <xsl:param name="mode"/>
     <xsl:param name="context"/>
+    
+    <!-- variable PID -->
+    <xsl:variable name="pid" select="/mets:mets/@OBJID"></xsl:variable>
 
     <!-- Variable CID -->
     <xsl:variable name="cid">
@@ -31,12 +34,12 @@
         Humanities</xsl:variable>
     <xsl:variable name="gams">Geisteswissenschaftliches Asset Management System</xsl:variable>
     <xsl:variable name="uni_graz">Universität Graz</xsl:variable>
-    <xsl:variable name="de_gruyter">De Gruyter</xsl:variable>
-    <xsl:variable name="franz_nabl_institut">Franz-Nabl-Institut für
-        Literaturforschung</xsl:variable>
+    <xsl:variable name="tu_wien">Technische Universität Wien</xsl:variable>
+    <xsl:variable name="cvl">Computer Vision Lab</xsl:variable>
+
 
     <!-- Variablen Projekt -->
-    <xsl:variable name="server"/>
+    <xsl:variable name="server" select="'http://www.ditah.at/M3R-WebDev/'"/>
     <xsl:variable name="gamsdev">http://glossa.uni-graz.at/gamsdev/clausen/</xsl:variable>
     <xsl:variable name="projectTitle">
         <xsl:text>M3R</xsl:text>
@@ -57,7 +60,7 @@
     
     <!-- Variable mmmr js-->
     <xsl:variable name="mmmr_js">
-        <xsl:value-of select="concat($gamsdev, 'gams-www/js/mmmr.js')"/>
+        <xsl:value-of select="concat($server,'mmmr.js')"/>
     </xsl:variable>
 
     
@@ -71,7 +74,7 @@
 
     <!-- Variable mmmr css -->
     <xsl:variable name="mmmr_css">
-        <xsl:value-of select="concat($gamsdev, 'mmmr/css/mmmr.css')"/>
+        <xsl:value-of select="concat($server, 'mmmr.css')"/>
     </xsl:variable>
 
     <!-- Variable mmmr-nav css -->
@@ -101,7 +104,7 @@
             <meta name="keywords"
                 content="MSI, Spectroscopy, Manuscript"/>
             <meta name="description"
-                content="Multimodal Manusrcipt Representation"/>
+                content="Multimodal Manuscript Representation"/>
             <meta name="publisher"
                 content="Zentrum für Informationsmodellierung - Austrian Centre for Digital Humanities"/>
             <meta name="content-language" content="en"/>
@@ -117,9 +120,6 @@
             <!-- Einbindung bootstrap js -->
             <script type="text/javascript" src="{$bootstrap_js}"><xsl:text> </xsl:text></script>
 
-            <!-- Einbindung ohad js 
-            <script type="text/javascript" src="{$ohad_js}"><xsl:text> </xsl:text></script> -->
-
             <!-- Einbindung mmmr js -->
             <script type="text/javascript" src="{$mmmr_js}"><xsl:text> </xsl:text></script>
 
@@ -130,42 +130,14 @@
             <script type="text/javascript" src="/lib/1.0/plugins/matchHeight/jquery.matchHeight.js"><xsl:text> </xsl:text></script>
             <script type="text/javascript" src="/lib/1.0/plugins/matchHeight/matchHeight.js"><xsl:text> </xsl:text></script>
 
-           
-            
-            
-
-
-            <!-- Einbindung chart js -->
-            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"><xsl:text> </xsl:text></script>
-
-            <!-- Einbindung scrollspy js -->
-            <script type="text/javascript" src="{$scrollspy_js}"><xsl:text> </xsl:text></script>
-
-
             <!-- Einbindung bootstrap css -->
             <link href="{$bootstrap_css}" rel="stylesheet"/>
 
             <!--  Einbindung mmmr css -->
-            <link href="http://www.ditah.at/M3R-WebDev/mmmr.css" rel="stylesheet" type="text/css"/>
+            <link href="{$mmmr_css}" rel="stylesheet" type="text/css"/>
 
             <!--  Einbindung ohad-nav css -->
             <link href="{$mmmr_nav_css}" rel="stylesheet" type="text/css"/>
-
-            <!--  Einbindung datatables css  
-            <link
-                href="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/css/dataTables.bootstrap.min.css"
-                rel="stylesheet"/>  -->
-
-
-            <!--  Einbindung chart css -->
-            <link href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css"
-                rel="stylesheet"/>
-
-
-
-
-
-
         </head>
     </xsl:template>
 
@@ -234,7 +206,7 @@
                         <!-- Home -->
                         <li>
                             <xsl:if
-                                test="$cid = 'context:ohad' and $context != 'analog' and $context != 'digital' and $context != 'forschungsergebnisse' and $mode != 'imprint'">
+                                test="$cid = 'context:mmmr'">
                                 <xsl:attribute name="class">active</xsl:attribute>
                             </xsl:if>
                             <a href="http://glossa.uni-graz.at/context:mmmr">Home</a>
@@ -247,9 +219,8 @@
                             <a class="dropdown-toggle" data-toggle="dropdown" role="button"
                                 aria-haspopup="true" aria-expanded="false">Manuscripts <span class="caret"><xsl:text> </xsl:text></span></a>
                             <ul class="dropdown-menu">
-                                
                                 <li>
-                                    <xsl:if test="$context = 'analog' and $locale = 'ueber'">
+                                    <xsl:if test="test">
                                         <xsl:attribute name="class">active</xsl:attribute>
                                     </xsl:if>
                                     <a
@@ -258,7 +229,7 @@
                                 </li>
                                 <li role="seperator" class="divider"/>
                                 <li>
-                                    <xsl:if test="$context = 'analog' and $locale = 'ueber'">
+                                    <xsl:if test="$pid = 'o:k4984'">
                                         <xsl:attribute name="class">active</xsl:attribute>
                                     </xsl:if>
                                     <a
@@ -267,7 +238,7 @@
                                 </li>
                                
                                 <li>
-                                    <xsl:if test="/mets:mets/@OBJID ='o:k4984.1r'">
+                                    <xsl:if test="$pid = 'o:k4984.1r'">
                                         <xsl:attribute name="class">active</xsl:attribute>
                                     </xsl:if>
                                     <a
@@ -276,7 +247,7 @@
                                 </li>
                                 <li role="seperator" class="divider"/>
                                 <li>
-                                    <xsl:if test="$context = 'analog' and $locale = 'ueber'">
+                                    <xsl:if test="test">
                                         <xsl:attribute name="class">active</xsl:attribute>
                                     </xsl:if>
                                     <a
@@ -285,7 +256,7 @@
                                 </li>
                                 
                                 <li>
-                                    <xsl:if test="/mets:mets/@OBJID ='o:mmmr.hs1.50r'">
+                                    <xsl:if test="test">
                                         <xsl:attribute name="class">active</xsl:attribute>
                                     </xsl:if>
                                     <a
@@ -297,7 +268,7 @@
                         </li>
                         <li>
                             <xsl:if
-                                test="$cid = 'context:ohad' and $context != 'analog' and $context != 'digital' and $context != 'forschungsergebnisse' and $mode != 'imprint'">
+                                test="$cid = 'query:mmmr.deletion'">
                                 <xsl:attribute name="class">active</xsl:attribute>
                             </xsl:if>
                             <a href="http://glossa.uni-graz.at/query:mmmr.deletion">Search</a>
@@ -327,94 +298,8 @@
                                         href="http://glossa.uni-graz.at/o:mmmr.deletion"
                                         >Deletion</a>
                                 </li>
-                                
                             </ul> 
                         </li>
-                        <!-- Digitale Edition
-                        <li class="dropdown">
-                            <xsl:if test="$context = 'digital'">
-                                <xsl:attribute name="class">dropdown active</xsl:attribute>
-                            </xsl:if>
-                            <a class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                aria-haspopup="true" aria-expanded="false">Digitale Edition <span
-                                    class="caret"><xsl:text> </xsl:text></span></a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <xsl:if test="contains($locale, 'gww')">
-                                        <xsl:attribute name="class">active</xsl:attribute>
-                                    </xsl:if>
-                                    <a href="/context:dramen">Dramen</a>
-                                </li>
-                                <li role="separator" class="divider">
-                                    <xsl:text> </xsl:text>
-                                </li>
-                                <li>
-                                    <xsl:if test="contains($locale, 'gww')">
-                                        <xsl:attribute name="class">active</xsl:attribute>
-                                    </xsl:if>
-                                    <a
-                                        href="/o:ohad.5405/sdef:TEI/get?context=digital&amp;locale=gww"
-                                        >Geschichten aus dem Wiener Wald</a>
-                                </li>
-                                <li role="separator" class="divider">
-                                    <xsl:text> </xsl:text>
-                                </li>
-                                <li>
-                                    <xsl:if test="$context = 'digital' and $locale = 'ueber'">
-                                        <xsl:attribute name="class">active</xsl:attribute>
-                                    </xsl:if>
-                                    <a
-                                        href="/context:ohad/sdef:Context/get?locale=ueber&amp;context=digital"
-                                        >Über die digitale Edition</a>
-                                </li>
-                                <li>
-                                    <xsl:if test="$context = 'digital' and $locale = 'codierung'">
-                                        <xsl:attribute name="class">active</xsl:attribute>
-                                    </xsl:if>
-                                    <a
-                                        href="/context:ohad/sdef:Context/get?locale=codierung&amp;context=digital"
-                                        >Codierungsrichtlinien</a>
-                                </li>
-                            </ul>
-                        </li>  -->
-                        <!-- Forschungspublikationen 
-                        <li class="dropdown">
-                            <xsl:if test="$context = 'forschungsergebnisse'">
-                                <xsl:attribute name="class">dropdown active</xsl:attribute>
-                            </xsl:if>
-                            <a class="dropdown-toggle" data-toggle="dropdown" role="button"
-                                aria-haspopup="true" aria-expanded="false">Forschungspublikationen
-                                    <span class="caret"><xsl:text> </xsl:text></span></a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <xsl:if
-                                        test="$context = 'forschungsergebnisse' and $locale = 'hka'">
-                                        <xsl:attribute name="class">active</xsl:attribute>
-                                    </xsl:if>
-                                    <a
-                                        href="/context:ohad/sdef:Context/get?locale=hka&amp;context=forschungsergebnisse"
-                                        >Historisch-kritische Ausgabe: Grundlagen und Maximen </a>
-                                </li>
-                                <li>
-                                    <xsl:if
-                                        test="$context = 'forschungsergebnisse' and $locale = 'einzelstudien'">
-                                        <xsl:attribute name="class">active</xsl:attribute>
-                                    </xsl:if>
-                                    <a
-                                        href="/context:ohad/sdef:Context/get?locale=einzelstudien&amp;context=forschungsergebnisse"
-                                        >Einzelstudien</a>
-                                </li>
-                                <li>
-                                    <xsl:if
-                                        test="$context = 'forschungsergebnisse' and $locale = 'de_dramennetzwerk'">
-                                        <xsl:attribute name="class">active</xsl:attribute>
-                                    </xsl:if>
-                                    <a
-                                        href="/context:ohad/sdef:Context/get?locale=de_dramennetzwerk&amp;context=forschungsergebnisse"
-                                        >Digitale Edition: Dramennetzwerkanalyse</a>
-                                </li>
-                            </ul>
-                        </li>-->
                     </ul>
                 </div>
             </div>
@@ -441,8 +326,9 @@
                         <a href="//cvl.tuwien.ac.at" target="_blank">
                             <img class="logo " style="height:30px; width: auto;"
                                 src="{concat($gamsdev,'/mmmr/img/cvl.png')}"
-                                title="CVL" alt="{$franz_nabl_institut}"/>
+                                title="CVL" alt="{$cvl}"/>
                         </a>
+                        <!--
                         
                         <a class="link" href="//creativecommons.org/licenses/by-nc-sa/4.0/"
                             target="_blank">
@@ -455,6 +341,7 @@
                             <img class="logol" alt="CC BY-NC-SA"
                                 src="{concat($gamsdev,'/ohad/img/sa.png')}" title="CC BY-NC-SA"/>
                         </a>
+                        -->
                     </div>
                     <!-- visible-xs -->
                     <div class="col-md-6 quicklinks visible-xs">
