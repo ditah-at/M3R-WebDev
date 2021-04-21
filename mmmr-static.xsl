@@ -42,7 +42,7 @@
     <xsl:variable name="server" select="'http://www.ditah.at/M3R-WebDev/'"/>
     <xsl:variable name="gamsdev">http://glossa.uni-graz.at/gamsdev/clausen/</xsl:variable>
     <xsl:variable name="projectTitle">
-        <xsl:text>M3R.</xsl:text>
+        <xsl:text>M3R</xsl:text>
     </xsl:variable>
     <xsl:variable name="subTitle">
         <xsl:text>Multimodal Manuscript Representation</xsl:text>
