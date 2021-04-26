@@ -24,7 +24,7 @@
     <!--
  Variablen ZIM, GAMS, Uni Graz, DeGruyter, Franz-Nabl-Institut 
 -->
-    <xsl:variable name="zim-acdh"> Zentrum für Informationsmodellierung – Austrian Centre for
+    <xsl:variable name="zim-acdh"> Zentrum für Informationsmodellierung 2 – Austrian Centre for
         Digital Humanities </xsl:variable>
     <xsl:variable name="gams">Geisteswissenschaftliches Asset Management System</xsl:variable>
     <xsl:variable name="uni_graz">Universität Graz</xsl:variable>
