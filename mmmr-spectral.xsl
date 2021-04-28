@@ -161,8 +161,13 @@
                                 </h4>
                                 <xsl:for-each select="mets:file">
                                     <div>
-                                        <xsl:value-of select="mets:FLocat/@xlink:href" xmlns:xlink="http://www.w3.org/1999/xlink"/>
-                                        
+                                        <xsl:element name="a">
+                                            <xsl:attribute name="href">
+                                                <xsl:value-of select="mets:FLocat/@xlink:href" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+                                            </xsl:attribute>
+                                            <xsl:value-of select="mets:FLocat/@xlink:href" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+                                        </xsl:element>
+
                                     </div>
                                 </xsl:for-each>
                                 <xsl:for-each select="mets:fileGrp">
