@@ -1,0 +1,70 @@
+﻿{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://preview.iiif.io/cookbook/3333-choice/recipe/0033-choice/manifest.json",
+    "type": "Manifest",
+    "label": {
+        "en": ["Choice Example"]
+    },
+    "items": [
+        {
+            "id": "https://preview.iiif.io/cookbook/3333-choice/recipe/0033-choice/canvas/p1",
+            "type": "Canvas",
+            "height": 1271,
+            "width": 2000,
+            "items": [
+                {
+                    "id": "https://preview.iiif.io/cookbook/3333-choice/recipe/0033-choice/page/p1/1",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://preview.iiif.io/cookbook/3333-choice/recipe/0033-choice/annotation/p0001-image",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "type": "Choice",
+                                "items": [
+                                    {
+                                        "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r/REFERENCE/full/full/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "width": 3280,
+                                        "height": 4928,
+                                        "label": {
+                                            "en": ["Reference Image"]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r/REFERENCE",
+                                                "type": "ImageService2",
+                                                "profile": "http://iiif.io/api/image/2/level2.json"
+                                            }
+                                        ]
+                                    },
+                                    
+                                    {
+                                        "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r%2FGRY.365NM.UVB/square/pct:50/0/default.jpg",
+                                        "type": "Image",
+                                        "format": "image/jpeg",
+                                        "width": 4868,
+                                        "height": 6497,
+                                        "label": {
+                                            "en": ["Reference Image"]
+                                        },
+                                        "service": [
+                                            {
+                                                "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r%2FGRY.365NM.UVB/square/pct:50/0/default.jpg",
+                                                "type": "ImageService2",
+                                                "profile": "http://iiif.io/api/image/2/level2.json"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "target": "https://preview.iiif.io/cookbook/3333-choice/recipe/0033-choice/canvas/p1"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
