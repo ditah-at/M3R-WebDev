@@ -37,7 +37,7 @@
                   {
                     "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/REFERENCE",
                     "profile": "level1",
-                    "type": "ImageService3"
+                    "type": "ImageService2"
                   }
                 ],
                 "label": {"en": ["Reference Image"]}
