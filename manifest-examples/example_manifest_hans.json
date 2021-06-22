@@ -76,11 +76,11 @@
                             "height": 4928,
                             "width": 3280,
                             "label": {"en": ["Reference Image"]},
-                            "service": [{
+                            "service": {
                                 "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r/REFERENCE",
-                                "profile": "level1",
-                                "type": "ImageService3"
-                            }]
+                                "profile": "http://iiif.io/api/image/2/level1.json",
+                                "@context": "https://iiif.io/api/image/2/context.json"
+                            }
                         }
                     ]
                 },
