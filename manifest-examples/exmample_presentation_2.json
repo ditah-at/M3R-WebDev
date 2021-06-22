@@ -1,0 +1,1735 @@
+{
+    "@context": "https://iiif.io/api/presentation/2/context.json",
+    "@id": "https://jubilees.stmarytx.edu/iiifp/Integrating/manifest.json",
+    "@type": "sc:Manifest",
+    "label": "Images from the Integrating phase of the Jubilees Palimpsest Project",
+    "viewingDirection": "left-to-right",
+    "viewingHint": "paged",
+    "navDate": "2013-07-22T00:00:00Z",
+    "license": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "attribution": "Jubilees Palimpsest Project, USC, and UCLA",
+    "logo": {
+        "@id": "https://jubilees.stmarytx.edu/iiif/Logo-JubPalProj.jp2/full/full/0/default.jpg",
+        "@type": "dctypes:Image",
+        "service": {
+            "@context": "https://iiif.io/api/image/2/context.json",
+            "@id": "https://jubilees.stmarytx.edu/iiif/Logo-JubPalProj.jp2",
+            "profile": "https://iiif.io/api/image/2/profiles/level2.json"
+        }
+    },
+    "related": {
+        "@id": "https://jubilees.stmarytx.edu/index.html",
+        "@type": "dctypes:text",
+        "format": "text/html"
+    },
+    "metadata": [
+        {
+            "label": "Author",
+            "value": "Jubilees Palimpest Project"
+        },
+        {
+            "label": "Published",
+            "value": "2014"
+        },
+        {
+            "label": "Source",
+            "value": "https://jubilees.stmarytx.edu/integrating"
+        }
+    ],
+    "description": "Images from the 2013-2014 phase of the Jubilees Palimpsest Project, Integrating Spectral and Reflectance Transformation Imaging (RTI).",
+    "thumbnail": {
+        "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ac-00.jp2/square/100,100/0/default.jpg",
+        "@type": "dctypes:Image",
+        "format": "image/jpeg",
+        "service": {
+            "@context": "https://iiif.io/api/image/2/context.json",
+            "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ac-00.jp2",
+            "profile": "https://iiif.io/api/image/2/level1.json"
+        }
+    },
+    "sequences": [{
+        "@context": "https://iiif.io/api/presentation/2/context.json",
+        "@id": "https://jubilees.stmarytx.edu/iiifp/Integrating/sequence/chronological",
+        "@type": "sc:Sequence",
+        "label": "artifact chronology",
+        "viewingDirection": "left-to-right",
+        "viewingHint": "paged",
+        "startCanvas": "https://jubilees.stmarytx.edu/iiifp/Integrating/canvas/Figurine",
+        "canvases": [
+            {
+                "@context": "https://iiif.io/api/presentation/2/context.json",
+                "@id": "https://jubilees.stmarytx.edu/iiifp/Integrating/canvas/Figurine",
+                "@type": "sc:Canvas",
+                "label": "Terracotta Figurine",
+                "thumbnail": {
+                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-00.jp2/square/100,100/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "service": {
+                        "@context": "https://iiif.io/api/image/2/context.json",
+                        "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-00.jp2",
+                        "profile": "https://iiif.io/api/image/2/level1.json"
+                    }
+                },
+                "height": 6132,
+                "width": 8176,
+                "images": [{
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "label": "Accurate Color Diffuse",
+                            "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-00.jp2/full/full/0/default.jpg",
+                            "@type": "dctypes:Image",
+                            "format": "image/jpeg",
+                            "service": {
+                                "@context": "https://iiif.io/api/image/2/context.json",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-00.jp2",
+                                "profile": "https://iiif.io/api/image/2/level1.json"
+                            },
+                            "height": 8181,
+                            "width": 6132
+                        },
+                        "item": [
+                            {
+                                "label": "Accurate Color Diffuse",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-00.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-00.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 1",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-31.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-31.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 2",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-32.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-32.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 3",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-33.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-33.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 4",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-34.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-34.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 5",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-35.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-35.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Diffuse",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Xs-00.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Xs-00.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 1",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Xs-31.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Xs-31.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 2",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Xs-32.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Xs-32.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 3",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Xs-33.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Xs-33.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 4",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Xs-34.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Xs-34.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 5",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Xs-35.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Xs-35.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Diffuse",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ps-00.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ps-00.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 1",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ps-31.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ps-31.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 2",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ps-32.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ps-32.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 3",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ps-33.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ps-33.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 4",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ps-34.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ps-34.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 5",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ps-35.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ps-35.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            }
+                        ]
+                    },
+                    "on": "https://jubilees.stmarytx.edu/iiifp/Integrating/canvas/Figurine"
+                }],
+                "otherContent": [{
+                    "@id": "https://jubilees.stmarytx.edu/iiifp/Integrating/list/figurine.json",
+                    "@type": "sc:AnnotationList"
+                }]
+            },
+            {
+                "@context": "https://iiif.io/api/presentation/2/context.json",
+                "@id": "https://jubilees.stmarytx.edu/iiifp/Integrating/canvas/Mask",
+                "@type": "sc:Canvas",
+                "label": "Mummy Mask from Roman Period Egypt",
+                "thumbnail": {
+                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ac-00.jp2/square/100,100/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "service": {
+                        "@context": "https://iiif.io/api/image/2/context.json",
+                        "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ac-00.jp2",
+                        "profile": "https://iiif.io/api/image/2/level1.json"
+                    }
+                },
+                "height": 6132,
+                "width": 8176,
+                "images": [{
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "label": "Accurate Color Diffuse",
+                            "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ac-00.jp2/full/full/0/default.jpg",
+                            "@type": "dctypes:Image",
+                            "format": "image/jpeg",
+                            "service": {
+                                "@context": "https://iiif.io/api/image/2/context.json",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ac-00.jp2",
+                                "profile": "https://iiif.io/api/image/2/level1.json"
+                            },
+                            "height": 8181,
+                            "width": 6132
+                        },
+                        "item": [
+                            {
+                                "label": "Accurate Color Diffuse",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ac-00.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ac-00.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 1",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ac-31.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ac-31.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 2",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ac-32.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ac-32.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 3",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ac-33.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ac-33.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 4",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ac-34.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ac-34.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 5",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ac-35.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ac-35.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Diffuse",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Xs-00.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Xs-00.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 1",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Xs-31.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Xs-31.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 2",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Xs-32.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Xs-32.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 3",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Xs-33.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Xs-33.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 4",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Xs-34.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Xs-34.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 5",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Xs-35.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Xs-35.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Diffuse",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ps-00.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ps-00.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 1",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ps-31.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ps-31.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 2",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ps-32.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ps-32.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 3",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ps-33.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ps-33.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 4",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ps-34.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ps-34.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 5",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ps-35.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/Mask-Ps-35.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            }
+                        ]
+                    },
+                    "on": "https://jubilees.stmarytx.edu/iiifp/Integrating/canvas/Mask"
+                }],
+                "otherContent": [{
+                    "@id": "https://jubilees.stmarytx.edu/iiifp/Integrating/list/mask.json",
+                    "@type": "sc:AnnotationList"
+                }]
+            },
+            {
+                "@context": "https://iiif.io/api/presentation/2/context.json",
+                "@id": "https://jubilees.stmarytx.edu/iiifp/Integrating/canvas/UCLARouse32-25v",
+                "@type": "sc:Canvas",
+                "label": "UCLA Rouse ms. 32 p. 25v",
+                "thumbnail": {
+                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ac-00.jp2/square/100,100/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "service": {
+                        "@context": "https://iiif.io/api/image/2/context.json",
+                        "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ac-00.jp2",
+                        "profile": "https://iiif.io/api/image/2/level1.json"
+                    }
+                },
+                "height": 6132,
+                "width": 8176,
+                "images": [{
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "label": "Accurate Color Diffuse",
+                            "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ac-00.jp2/full/full/0/default.jpg",
+                            "@type": "dctypes:Image",
+                            "format": "image/jpeg",
+                            "service": {
+                                "@context": "https://iiif.io/api/image/2/context.json",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ac-00.jp2",
+                                "profile": "https://iiif.io/api/image/2/level1.json"
+                            },
+                            "height": 8181,
+                            "width": 6132
+                        },
+                        "item": [
+                            {
+                                "label": "Accurate Color Diffuse",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ac-00.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ac-00.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 1",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ac-31.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ac-31.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 2",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ac-32.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ac-32.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 3",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ac-33.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ac-33.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 4",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ac-34.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ac-34.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 5",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ac-35.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ac-35.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Diffuse",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Xs-00.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Xs-00.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 1",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Xs-31.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Xs-31.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 2",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Xs-32.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Xs-32.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 3",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Xs-33.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Xs-33.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 4",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Xs-34.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Xs-34.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 5",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Xs-35.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Xs-35.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Diffuse",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ps-00.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ps-00.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 1",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ps-31.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ps-31.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 2",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ps-32.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ps-32.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 3",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ps-33.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ps-33.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 4",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ps-34.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ps-34.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 5",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ps-35.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-25v-Ps-35.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            }
+                        ]
+                    },
+                    "on": "https://jubilees.stmarytx.edu/iiifp/Integrating/canvas/UCLARouse32-25v"
+                }],
+                "otherContent": [{
+                    "@id": "https://jubilees.stmarytx.edu/iiifp/Integrating/list/uclarouse32-25v.json",
+                    "@type": "sc:AnnotationList"
+                }]
+            },
+            {
+                "@context": "https://iiif.io/api/presentation/2/context.json",
+                "@id": "https://jubilees.stmarytx.edu/iiifp/Integrating/canvas/UCLARouse32-55r",
+                "@type": "sc:Canvas",
+                "label": "UCLA Rouse ms. 32 p. 55r",
+                "thumbnail": {
+                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ac-00.jp2/square/100,100/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "service": {
+                        "@context": "https://iiif.io/api/image/2/context.json",
+                        "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ac-00.jp2",
+                        "profile": "https://iiif.io/api/image/2/level1.json"
+                    }
+                },
+                "height": 6132,
+                "width": 8176,
+                "images": [{
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "label": "Accurate Color Diffuse",
+                            "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ac-00.jp2/full/full/0/default.jpg",
+                            "@type": "dctypes:Image",
+                            "format": "image/jpeg",
+                            "service": {
+                                "@context": "https://iiif.io/api/image/2/context.json",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ac-00.jp2",
+                                "profile": "https://iiif.io/api/image/2/level1.json"
+                            },
+                            "height": 8181,
+                            "width": 6132
+                        },
+                        "item": [
+                            {
+                                "label": "Accurate Color Diffuse",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ac-00.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ac-00.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 1",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ac-31.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ac-31.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 2",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ac-32.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ac-32.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 3",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ac-33.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ac-33.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 4",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ac-34.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ac-34.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 5",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ac-35.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ac-35.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Diffuse",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Xs-00.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Xs-00.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 1",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Xs-31.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Xs-31.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 2",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Xs-32.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Xs-32.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 3",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Xs-33.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Xs-33.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 4",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Xs-34.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Xs-34.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 5",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Xs-35.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Xs-35.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Diffuse",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ps-00.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ps-00.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 1",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ps-31.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ps-31.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 2",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ps-32.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ps-32.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 3",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ps-33.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ps-33.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 4",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ps-34.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ps-34.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 5",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ps-35.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/UCLARouse32-55r-Ps-35.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            }
+                        ]
+                    },
+                    "on": "https://jubilees.stmarytx.edu/iiifp/Integrating/canvas/UCLARouse32-55r"
+                }],
+                "otherContent": [{
+                    "@id": "https://jubilees.stmarytx.edu/iiifp/Integrating/list/uclarouse32-55r.json",
+                    "@type": "sc:AnnotationList"
+                }]
+            },
+            {
+                "@context": "https://iiif.io/api/presentation/2/context.json",
+                "@id": "https://jubilees.stmarytx.edu/iiifp/Integrating/canvas/USCAntiphonary",
+                "@type": "sc:Canvas",
+                "label": "USC Antiphonary",
+                "thumbnail": {
+                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ac-00.jp2/square/100,100/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "service": {
+                        "@context": "https://iiif.io/api/image/2/context.json",
+                        "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ac-00.jp2",
+                        "profile": "https://iiif.io/api/image/2/level1.json"
+                    }
+                },
+                "height": 6132,
+                "width": 8176,
+                "images": [{
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "label": "Accurate Color Diffuse",
+                            "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ac-00.jp2/full/full/0/default.jpg",
+                            "@type": "dctypes:Image",
+                            "format": "image/jpeg",
+                            "service": {
+                                "@context": "https://iiif.io/api/image/2/context.json",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ac-00.jp2",
+                                "profile": "https://iiif.io/api/image/2/level1.json"
+                            },
+                            "height": 8181,
+                            "width": 6132
+                        },
+                        "item": [
+                            {
+                                "label": "Accurate Color Diffuse",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ac-00.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ac-00.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 1",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ac-31.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ac-31.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 2",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ac-32.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ac-32.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 3",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ac-33.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ac-33.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 4",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ac-34.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ac-34.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 5",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ac-35.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ac-35.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Diffuse",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Xs-00.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Xs-00.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 1",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Xs-31.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Xs-31.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 2",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Xs-32.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Xs-32.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 3",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Xs-33.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Xs-33.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 4",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Xs-34.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Xs-34.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 5",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Xs-35.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Xs-35.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Diffuse",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ps-00.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ps-00.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 1",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ps-31.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ps-31.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 2",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ps-32.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ps-32.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 3",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ps-33.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ps-33.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 4",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ps-34.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ps-34.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 5",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ps-35.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonary-Ps-35.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            }
+                        ]
+                    },
+                    "on": "https://jubilees.stmarytx.edu/iiifp/Integrating/canvas/USCAntiphonary"
+                }],
+                "otherContent": [{
+                    "@id": "https://jubilees.stmarytx.edu/iiifp/Integrating/list/uscantiphonary.json",
+                    "@type": "sc:AnnotationList"
+                }]
+            },
+            {
+                "@context": "https://iiif.io/api/presentation/2/context.json",
+                "@id": "https://jubilees.stmarytx.edu/iiifp/Integrating/canvas/USCAntiphonaryDetail",
+                "@type": "sc:Canvas",
+                "label": "USC Antiphonary Detail",
+                "thumbnail": {
+                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ac-00.jp2/square/100,100/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "service": {
+                        "@context": "https://iiif.io/api/image/2/context.json",
+                        "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ac-00.jp2",
+                        "profile": "https://iiif.io/api/image/2/level1.json"
+                    }
+                },
+                "height": 6132,
+                "width": 8176,
+                "images": [{
+                    "@type": "oa:Annotation",
+                    "motivation": "sc:painting",
+                    "resource": {
+                        "@type": "oa:Choice",
+                        "default": {
+                            "label": "Accurate Color Diffuse",
+                            "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ac-00.jp2/full/full/0/default.jpg",
+                            "@type": "dctypes:Image",
+                            "format": "image/jpeg",
+                            "service": {
+                                "@context": "https://iiif.io/api/image/2/context.json",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ac-00.jp2",
+                                "profile": "https://iiif.io/api/image/2/level1.json"
+                            },
+                            "height": 8181,
+                            "width": 6132
+                        },
+                        "item": [
+                            {
+                                "label": "Accurate Color Diffuse",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ac-00.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ac-00.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 1",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ac-31.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ac-31.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 2",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ac-32.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ac-32.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 3",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ac-33.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ac-33.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 4",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ac-34.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ac-34.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Accurate Color Raking 5",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ac-35.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ac-35.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Diffuse",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Xs-00.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Xs-00.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 1",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Xs-31.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Xs-31.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 2",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Xs-32.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Xs-32.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 3",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Xs-33.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Xs-33.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 4",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Xs-34.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Xs-34.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "Extended Spectrum Raking 5",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Xs-35.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Xs-35.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Diffuse",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ps-00.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ps-00.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 1",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ps-31.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ps-31.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 2",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ps-32.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ps-32.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 3",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ps-33.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ps-33.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 4",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ps-34.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ps-34.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            },
+                            {
+                                "label": "PCA Pseudocolor Raking 5",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ps-35.jp2/full/full/0/default.jpg",
+                                "@type": "dctypes:Image",
+                                "format": "image/jpeg",
+                                "service": {
+                                    "@context": "https://iiif.io/api/image/2/context.json",
+                                    "@id": "https://jubilees.stmarytx.edu/iiif/USCAntiphonaryDetail-Ps-35.jp2",
+                                    "profile": "https://iiif.io/api/image/2/level1.json"
+                                },
+                                "height": 8181,
+                                "width": 6132
+                            }
+                        ]
+                    },
+                    "on": "https://jubilees.stmarytx.edu/iiifp/Integrating/canvas/USCAntiphonaryDetail"
+                }],
+                "otherContent": [{
+                    "@id": "https://jubilees.stmarytx.edu/iiifp/Integrating/list/uscantiphonarydetail.json",
+                    "@type": "sc:AnnotationList"
+                }]
+            }
+        ]
+    }]
+}
