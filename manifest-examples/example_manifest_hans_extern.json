@@ -3,12 +3,14 @@
     "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/manifest.json",
     "type": "Manifest",
     "homepage": {
-            "id": "http://glossa.uni-graz.at/o:k4984.1r",
-            "type": "Image",
-            "label": {"en": ["Übersicht"]},
-            "format": "text/html",
-            "language": ["en"]
-        },
+        "id": "http://glossa.uni-graz.at/o:k4984.1r",
+        "type": "Image",
+        "label": {"en": ["Übersicht"]},
+        "format": "text/html",
+        "language": ["en"]
+    },
+    "rights": "http://creativecommons.org/licenses/by/4.0/",
+    "summary": {"en": ["This is a summary of the object."]},
     "label": {"en": ["K49841.1r"]},
     "metadata": [{
         "label": {"en": ["Author"]},
@@ -30,15 +32,16 @@
             "format": "text/html",
             "language": ["en"]
         },
-        "metadata": [{
-            "label": {"en": ["Description"]},
-            "value": {"en": ["This manuscript page shows ...[evtl. TEI header]"]}},
+        "metadata": [
             {
-            "label": {"en": ["test"]},
-            "value": {"en": ["Ttest"]}
-        }],
-        "rights": "http://creativecommons.org/licenses/by/4.0/" ,
-        "summary": { "en": [ "This is a summary of the object." ] } ,
+                "label": {"en": ["Description"]},
+                "value": {"en": ["This manuscript page shows ...[evtl. TEI header]"]}
+            },
+            {
+                "label": {"en": ["test"]},
+                "value": {"en": ["Ttest"]}
+            }
+        ],
         "items": [{
             "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/page/p1/1",
             "type": "AnnotationPage",
