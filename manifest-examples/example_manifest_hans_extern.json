@@ -1,0 +1,68 @@
+﻿{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/manifest.json",
+    "type": "Manifest",
+    "label": {"en": ["K49841.1r"]},
+    "metadata": [{
+        "label": {"en": ["Author"]},
+        "value": {"none": ["<span><a href='https://github.com/larifarian'>Hans Clausen<\/a><\/span>"]}
+    }],
+    "items": [{
+        "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1",
+        "type": "Canvas",
+        "height": 8181,
+        "width": 6132,
+        "label": {
+            "en": ["Example Choice"],
+            "de": ["Beispiel Layer"]
+        },
+        "metadata": [{
+            "label": {"en": ["Description"]},
+            "value": {"en": ["This manuscript page shows ..."]}
+        }],
+        "items": [{
+            "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/page/p1/1",
+            "type": "AnnotationPage",
+            "items": [{
+                "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/annotation/p0001-image",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                    "type": "Choice",
+                    "items": [
+                        {
+                            "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural/full/max/0/default.jpg",
+                            "type": "Image",
+                            "format": "image/jpeg",
+                            "width": 2000,
+                            "height": 1271,
+                            "label": {"en": ["Natural Light"]},
+                            "service": [{
+                                "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural",
+                                "type": "ImageService3",
+                                "profile": "level1"
+                            }]
+                        },
+                        {
+                            "label": "Accurate Color Diffuse",
+                            "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-00.jp2/full/full/0/default.jpg",
+                            "@type": "dctypes:Image",
+                            "format": "image/jpeg",
+                            "service": {
+                                "@context": "https://iiif.io/api/image/2/context.json",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-00.jp2",
+                                "profile": "https://iiif.io/api/image/2/level1.json"
+                            },
+                            "height": 8181,
+                            "width": 6132
+                        }
+                        
+                       
+                        
+                    ]
+                },
+                "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1"
+            }]
+        }]
+    }]
+}
