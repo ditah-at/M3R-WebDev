@@ -37,7 +37,7 @@
                         "label": {"en": ["test"]},
                         "service": {
                             "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r%2FTEST",
-                            "type": "ImageService2",
+                            "type": "ImageService1",
                             "profile": "level1"
                         }
                     },
