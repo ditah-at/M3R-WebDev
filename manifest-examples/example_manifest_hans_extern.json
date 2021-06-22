@@ -16,9 +16,16 @@
             "en": ["Example Choice"],
             "de": ["Beispiel Layer"]
         },
+        "homepage": [{
+            "id": "https://example.com/info/",
+            "type": "Text",
+            "label": {"en": ["Homepage for Example Object"]},
+            "format": "text/html",
+            "language": ["en"]
+        }],
         "metadata": [{
             "label": {"en": ["Description"]},
-            "value": {"en": ["This manuscript page shows ..."]}
+            "value": {"en": ["This manuscript page shows ...[evtl. TEI header]"]}
         }],
         "items": [{
             "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/page/p1/1",
@@ -56,9 +63,6 @@
                             "height": 8181,
                             "width": 6132
                         }
-                        
-                       
-                        
                     ]
                 },
                 "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1"
