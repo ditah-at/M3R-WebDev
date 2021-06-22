@@ -34,12 +34,7 @@
                         "format": "image/jpeg",
                         "height": 640,
                         "width": 400,
-                        "label": {"en": ["test"]},
-                        "service": {
-                            "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r%2FTEST",
-                            "type": "ImageService2",
-                            "profile": "level2"
-                        }
+                        "label": {"en": ["test"]}
                     },
                     "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=250,750,300,300"
                 },
