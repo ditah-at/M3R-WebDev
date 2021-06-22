@@ -52,7 +52,7 @@
                             "label": {"en": ["Reference Image"]},
                             "service": [{
                                 "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r/REFERENCE",
-                                "profile": "http://iiif.io/api/image/2/level2.json",
+                                "profile": "level1",
                                 "type": "ImageService2"
                             }]
                         }
