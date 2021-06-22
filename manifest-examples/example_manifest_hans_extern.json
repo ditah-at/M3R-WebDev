@@ -30,6 +30,7 @@
             "label": {"en": ["test"]},
             "value": {"en": ["Ttest"]}
         }],
+        "rights": "http://creativecommons.org/licenses/by/4.0/" ,
         "summary": { "en": [ "This is a summary of the object." ] } ,
         "items": [{
             "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/page/p1/1",
