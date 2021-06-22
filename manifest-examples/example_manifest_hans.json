@@ -37,8 +37,7 @@
                         "label": {"en": ["test"]},
                         "service": {
                             "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r%2FTEST",
-                            "type": "ImageService2",
-                            "profile": "level2"
+                            "type": "ImageService2"
                         }
                     },
                     "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=250,750,300,300"
