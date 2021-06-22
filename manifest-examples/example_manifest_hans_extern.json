@@ -17,9 +17,9 @@
             "de": ["Beispiel Layer"]
         },
         "homepage": [{
-            "id": "https://example.com/info/",
-            "type": "Text",
-            "label": {"en": ["Homepage for Example Object"]},
+            "id": "http://glossa.uni-graz.at/o:k4984.1r",
+            "type": "Image",
+            "label": {"en": ["Übersicht"]},
             "format": "text/html",
             "language": ["en"]
         }],
