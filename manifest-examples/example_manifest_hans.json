@@ -25,9 +25,9 @@
               "body": {
                 "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/REFERENCE/full/full/0/default.jpg",
                 "type": "Image",
-                "format": "image/png",
-                "height": 1800,
-                "width": 1200
+                "format": "image/jpeg",
+                "height": 4928,
+                "width": 3280
               },
               "target": "https://iiif.io/api/cookbook/recipe/0001-mvm-image/canvas/p1"
             }
