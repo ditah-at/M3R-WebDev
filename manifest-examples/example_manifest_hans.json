@@ -56,6 +56,19 @@
                             "height": 8181,
                             "width": 6132
                         },
+                         {
+                            "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/REFERENCE/full/full/0/default.jpg",
+                            "type": "Image",
+                            "format": "image/jpeg",
+                            "height": 4928,
+                            "width": 3280,
+                            "label": {"en": ["Reference Image"]},
+                            "service": {
+                                "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r/REFERENCE",
+                                "profile": "http://iiif.io/api/image/2/level1.json",
+                                "@context": "https://iiif.io/api/image/2/context.json"
+                            }
+                        },
                         {
                             "label": "Accurate Color Diffuse",
                             "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-00.jp2/full/full/0/default.jpg",
