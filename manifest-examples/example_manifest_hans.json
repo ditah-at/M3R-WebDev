@@ -53,7 +53,7 @@
                 "type": "Annotation",
                 "motivation": "painting",
                 "body": {
-                            "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/TEST/full/full/45/default.jpg",
+                            "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/TEST/square/full/45/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
                             "height": 640,
@@ -68,7 +68,7 @@
                         
                         
                         
-                "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=250,250,300,300"
+                "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=250,750,300,300"
             }
             
             ]
