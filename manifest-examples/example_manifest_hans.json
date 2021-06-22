@@ -26,7 +26,8 @@
                     "service": [{
                         "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r/REFERENCE",
                         "profile": "http://iiif.io/api/image/2/level2.json",
-                        "type": "ImageService2"
+                        "type": "ImageService2" 
+                        
                     }]
                 },
                 "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1"
