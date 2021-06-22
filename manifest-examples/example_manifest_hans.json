@@ -13,6 +13,11 @@
       "type": "Canvas",
       "height": 9856,
       "width": 6560,
+      "label": {
+        "en": [
+          "Example Choice"
+        ]
+      },
       "items": [
         {
           "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/page/p1/1",
@@ -28,9 +33,14 @@
                 "format": "image/jpeg",
                 "height": 4928,
                 "width": 3280,
-                "label": {
-                                            "en": ["Reference Image"]
-                                        }
+                "service": [
+                  {
+                    "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+                    "profile": "level1",
+                    "type": "ImageService3"
+                  }
+                ],
+                "label": {"en": ["Reference Image"]}
               },
               "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1"
             }
