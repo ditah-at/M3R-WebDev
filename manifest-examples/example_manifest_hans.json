@@ -27,7 +27,10 @@
                 "type": "Image",
                 "format": "image/jpeg",
                 "height": 4928,
-                "width": 3280
+                "width": 3280,
+                "label": {
+                                            "en": ["Reference Image"]
+                                        }
               },
               "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1"
             }
