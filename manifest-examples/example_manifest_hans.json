@@ -29,34 +29,33 @@
                 "motivation": "painting",
                 "body": {
                     "type": "Choice",
-                    "items": [{
-                        "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/REFERENCE/full/full/0/default.jpg",
-                        "type": "Image",
-                        "format": "image/jpeg",
-                        "height": 4928,
-                        "width": 3280,
-                        "label": {"en": ["Reference Image"]},
-                        "service": [{
-                            "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r/REFERENCE",
-                            "profile": "http://iiif.io/api/image/2/level2.json",
-                            "type": "ImageService2"
-                        }]
-                    },
-                    {
-                        "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/REFERENCE/full/full/0/default.jpg",
-                        "type": "Image",
-                        "format": "image/jpeg",
-                        "height": 4928,
-                        "width": 3280,
-                        "label": {"en": ["Reference Image"]},
-                        "service": [{
-                            "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r/REFERENCE",
-                            "profile": "http://iiif.io/api/image/2/level2.json",
-                            "type": "ImageService2"
-                        }]
-                    }
-                    
-                    
+                    "items": [
+                        {
+                            "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural/full/max/0/default.jpg",
+                            "type": "Image",
+                            "format": "image/jpeg",
+                            "width": 2000,
+                            "height": 1271,
+                            "label": {"en": ["Natural Light"]},
+                            "service": [{
+                                "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural",
+                                "type": "ImageService3",
+                                "profile": "level1"
+                            }]
+                        },
+                        {
+                            "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/REFERENCE/full/full/0/default.jpg",
+                            "type": "Image",
+                            "format": "image/jpeg",
+                            "height": 4928,
+                            "width": 3280,
+                            "label": {"en": ["Reference Image"]},
+                            "service": [{
+                                "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r/REFERENCE",
+                                "profile": "http://iiif.io/api/image/2/level2.json",
+                                "type": "ImageService2"
+                            }]
+                        }
                     ]
                 },
                 "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1"
