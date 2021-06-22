@@ -2,6 +2,13 @@
     "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/manifest.json",
     "type": "Manifest",
+    "homepage": {
+            "id": "http://glossa.uni-graz.at/o:k4984.1r",
+            "type": "Image",
+            "label": {"en": ["Übersicht"]},
+            "format": "text/html",
+            "language": ["en"]
+        },
     "label": {"en": ["K49841.1r"]},
     "metadata": [{
         "label": {"en": ["Author"]},
