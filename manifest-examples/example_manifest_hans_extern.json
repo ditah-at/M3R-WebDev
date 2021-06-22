@@ -16,16 +16,19 @@
             "en": ["Example Choice"],
             "de": ["Beispiel Layer"]
         },
-        "homepage": [{
+        "homepage": {
             "id": "http://glossa.uni-graz.at/o:k4984.1r",
             "type": "Image",
             "label": {"en": ["Übersicht"]},
             "format": "text/html",
             "language": ["en"]
-        }],
+        },
         "metadata": [{
             "label": {"en": ["Description"]},
-            "value": {"en": ["This manuscript page shows ...[evtl. TEI header]"]}
+            "value": {"en": ["This manuscript page shows ...[evtl. TEI header]"]}},
+            {
+            "label": {"en": ["test"]},
+            "value": {"en": ["Ttest"]}
         }],
         "items": [{
             "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/page/p1/1",
