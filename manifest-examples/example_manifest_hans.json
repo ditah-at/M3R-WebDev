@@ -35,7 +35,7 @@
                 "width": 3280,
                 "service": [
                   {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/918ecd18c2592080851777620de9bcb5-gottingen",
+                    "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/REFERENCE",
                     "profile": "level1",
                     "type": "ImageService3"
                   }
