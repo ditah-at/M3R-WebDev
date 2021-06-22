@@ -48,7 +48,11 @@
                             "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-00.jp2/full/full/0/default.jpg",
                             "@type": "dctypes:Image",
                             "format": "image/jpeg",
-                            
+                            "service": {
+                                "@context": "https://iiif.io/api/image/2/context.json",
+                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-00.jp2",
+                                "profile": "https://iiif.io/api/image/2/level1.json"
+                            },
                             "height": 8181,
                             "width": 6132
                         }
