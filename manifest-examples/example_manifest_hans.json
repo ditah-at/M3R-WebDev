@@ -34,7 +34,12 @@
                         "format": "image/jpeg",
                         "height": 640,
                         "width": 400,
-                        "label": {"en": ["test"]}
+                        "label": {"en": ["test"]},
+                        "service": {
+                            "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r%2FTEST",
+                            "type": "ImageService2",
+                            "profile": "level2"
+                        }
                     },
                     "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=250,750,300,300"
                 },
@@ -48,8 +53,12 @@
                         "format": "image/jpeg",
                         "width": 2000,
                         "height": 1271,
-                        "label": {"en": ["Natural Light"]}
-                        
+                        "label": {"en": ["Natural Light"]},
+                        "service": [{ 
+                            "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural",
+                            "type": "ImageService3",
+                            "profile": "level1"
+                        }]
                     },
                     "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1"
                 }
