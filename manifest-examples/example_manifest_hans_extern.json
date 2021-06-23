@@ -19,8 +19,8 @@
     "items": [{
         "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1",
         "type": "Canvas",
-        "height": 3066,
-        "width": 4091,
+        "height": 3066, 
+        "width": 3091,
         "label": {
             "en": ["Example Choice"],
             "de": ["Beispiel Layer"]
