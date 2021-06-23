@@ -66,7 +66,7 @@
                             }]
                         },
                         {
-                        "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r%2FTEST/square/full/full/default.jpg",
+                        "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r%2FTEST/full/full/default.jpg",
                         "type": "Image",
                         "format": "image/jpeg",
                         "height": 640,
@@ -80,7 +80,7 @@
                         
                     },
                     {
-                        "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r%2REFERENCE/square/full/full/default.jpg",
+                        "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r%2REFERENCE/full/full/default.jpg",
                         "type": "Image",
                         "format": "image/jpeg",
                         "height": 640,
