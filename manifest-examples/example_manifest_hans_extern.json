@@ -19,7 +19,7 @@
     "items": [{
         "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1",
         "type": "Canvas",
-        "height": 3066,
+        "height": 6231,
         "width": 4091,
         "label": {
             "en": ["Example Choice"],
@@ -82,7 +82,7 @@
                             "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r%2FREFERENCE/full/full/0/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
-                            "height": 49280,
+                            "height": 4928,
                             "width": 3280,
                             "label": {"en": ["test"]},
                             "service": {
