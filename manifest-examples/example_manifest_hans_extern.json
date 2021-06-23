@@ -82,7 +82,7 @@
                             "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r%2FREFERENCE/full/full/0/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
-                            "height": 4928,
+                            "height": 49280,
                             "width": 3280,
                             "label": {"en": ["test"]},
                             "service": {
