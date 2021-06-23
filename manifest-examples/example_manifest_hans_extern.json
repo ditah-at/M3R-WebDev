@@ -66,6 +66,32 @@
                             }]
                         },
                         {
+                        "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r%2FTEST/square/full/full/default.jpg",
+                        "type": "Image",
+                        "format": "image/jpeg",
+                        "height": 640,
+                        "width": 400,
+                        "label": {"en": ["test"]},
+                        "service": {
+                            "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r%2FTEST",
+                            "type": "ImageService2",
+                            "profile": "level2"
+                        }
+                    },
+                    {
+                        "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r%2REFERENCE/square/full/full/default.jpg",
+                        "type": "Image",
+                        "format": "image/jpeg",
+                        "height": 640,
+                        "width": 400,
+                        "label": {"en": ["test"]},
+                        "service": {
+                            "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r%2FTES",
+                            "type": "ImageService2",
+                            "profile": "level2"
+                        }
+                    },
+                        {
                             "label": "Accurate Color Diffuse",
                             "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-00.jp2/full/full/0/default.jpg",
                             "@type": "dctypes:Image",
