@@ -87,7 +87,7 @@
                         "width": 400,
                         "label": {"en": ["test"]},
                         "service": {
-                            "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r%2REFERENCE",
+                            "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r%2TEST",
                             "type": "ImageService2",
                             "profile": "level2"
                         }
