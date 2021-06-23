@@ -20,7 +20,7 @@
         "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1",
         "type": "Canvas",
         "height": 6231,
-        "width": 4091,
+        "width": 100,
         "label": {
             "en": ["Example Choice"],
             "de": ["Beispiel Layer"]
