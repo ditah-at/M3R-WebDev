@@ -19,8 +19,8 @@
     "items": [{
         "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1",
         "type": "Canvas",
-        "height": 8181,
-        "width": 10000,
+        "height": 6132,
+        "width": 8181,
         "label": {
             "en": ["Example Choice"],
             "de": ["Beispiel Layer"]
@@ -101,8 +101,8 @@
                                 "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-00.jp2",
                                 "profile": "https://iiif.io/api/image/2/level1.json"
                             },
-                            "height": 8181,
-                            "width": 6132
+                            "height": 6132,
+                            "width": 8181
                         }
                     ]
                 },
