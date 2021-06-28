@@ -19,7 +19,7 @@
     "items": [{
         "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1",
         "type": "Canvas",
-        "height": 3066, 
+        "height": 3066,
         "width": 3091,
         "label": {
             "en": ["Example Choice"],
@@ -53,6 +53,19 @@
                     "type": "Choice",
                     "items": [
                         {
+                            "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r%2FTEST2/full/full/0/default.jpg",
+                            "type": "Image",
+                            "format": "image/jpg",
+                            "height": 600,
+                            "width": 600,
+                            "label": {"en": ["test2"]},
+                            "service": {
+                                "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r%2FTEST2",
+                                "type": "ImageService2",
+                                "profile": "level2"
+                            }
+                        },
+                        {
                             "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural/full/max/0/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
@@ -78,7 +91,7 @@
                                 "profile": "level2"
                             }
                         },
-                        { 
+                        {
                             "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r%2FREFERENCE/full/full/0/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
@@ -88,7 +101,7 @@
                             "service": {
                                 "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r%2FREFERENCE",
                                 "type": "ImageService2",
-                                "profile": "level2"  
+                                "profile": "level2"
                             }
                         },
                         {
