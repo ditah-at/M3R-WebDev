@@ -24,6 +24,20 @@
             "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/page/p1/1",
             "type": "AnnotationPage",
             "items": [
+            {
+                    "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/annotation/p0001-image",
+                    "type": "Annotation",
+                    "motivation": "painting",
+                    "body": {
+                        "id": "http://glossa.uni-graz.at/gamsdev/clausen/test2.jpg",
+                        "type": "Image",
+                        "format": "image/jpeg",
+                        "height": 600,
+                        "width": 600,
+                        "label": {"en": ["test"]}
+                    },
+                    "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=250,750,300,300"
+                },
                 {
                     "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/annotation/p0001-image",
                     "type": "Annotation",
