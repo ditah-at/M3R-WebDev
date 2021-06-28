@@ -103,7 +103,7 @@
                                 "type": "ImageService2",
                                 "profile": "level2"
                             }
-                        },
+                        }, 
                         {
                             "label": "Accurate Color Diffuse",
                             "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-00.jp2/full/full/0/default.jpg",
