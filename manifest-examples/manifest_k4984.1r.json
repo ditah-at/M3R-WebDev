@@ -1,5 +1,6 @@
 ﻿{
-    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@context": "http://iiif.io/api/presentation/3/context.json",
     "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/manifest.json",
-    "@type": "Manifest"
+    "@type": "Manifest",
+    "label": {"en": ["K49841.1r"]}
 }
