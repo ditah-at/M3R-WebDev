@@ -46,14 +46,6 @@
             "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/page/p1/1",
             "type": "AnnotationPage",
             "items": [{
-                "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/annotation/p0001-image",
-                "type": "Annotation",
-                "motivation": "painting",
-                "body": {
-                    "type": "Choice",
-                    "items": [
-                        
-                        {
                             "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural/full/max/0/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
@@ -64,7 +56,8 @@
                                 "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural",
                                 "type": "ImageService3",
                                 "profile": "level1"
-                            }]
+                            }],
+							"target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1"
                         },
                         {
                             "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE/full/full/0/default.jpg",
@@ -77,7 +70,8 @@
                                 "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE",
                                 "type": "ImageService2",
                                 "profile": "level2"
-                            }
+                            },
+							"target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1"
                         }, 
                         {
                             "label": "Accurate Color Diffuse",
@@ -90,12 +84,12 @@
                                 "profile": "https://iiif.io/api/image/2/level1.json"
                             },
                             "height": 6132,
-                            "width": 8181
+                            "width": 8181,
+							"target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1"
                         }
                     ]
-                },
-                "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1"
-            }]
+                }
+            ]
         }]
     }]
 }
