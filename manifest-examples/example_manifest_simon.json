@@ -57,7 +57,7 @@
                             "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural/full/max/0/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
-                            "width": 2000,
+                            "width": 1000,
                             "height": 1271,
                             "label": {"en": ["Natural Light"]},
                             "service": [{
