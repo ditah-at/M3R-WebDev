@@ -45,7 +45,7 @@
                     },
                     "service": [
                       {
-                        "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE",
+                        "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE",
                         "type": "ImageService2",
                         "profile": "level2"
                       }
@@ -64,7 +64,7 @@
                     },
                     "service": [
                       {
-                        "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE",
+                        "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE",
                         "type": "ImageService2",
                         "profile": "level2"
                       }
