@@ -53,19 +53,6 @@
                     "type": "Choice",
                     "items": [
                         {
-                            "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FTEST2/full/full/0/default.jpg",
-                            "type": "Image",
-                            "format": "image/jpg",
-                            "height": 600,
-                            "width": 600,
-                            "label": {"en": ["test2"]},
-                            "service": {
-                                "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FTEST2",
-                                "type": "ImageService2",
-                                "profile": "level2"
-                            }
-                        },
-                        {
                             "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural/full/max/0/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
@@ -77,19 +64,6 @@
                                 "type": "ImageService3",
                                 "profile": "level1"
                             }]
-                        },
-                        {
-                            "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FTEST/full/full/0/default.png",
-                            "type": "Image",
-                            "format": "image/png",
-                            "height": 640,
-                            "width": 400,
-                            "label": {"en": ["test"]},
-                            "service": {
-                                "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FTEST",
-                                "type": "ImageService2",
-                                "profile": "level2"
-                            }
                         },
                         {
                             "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE/full/full/0/default.jpg",
