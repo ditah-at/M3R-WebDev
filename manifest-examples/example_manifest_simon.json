@@ -55,7 +55,7 @@
 								"format": "image/jpeg",
 								"width": 2000,
 								"height": 1271,
-								"label": {"en": ["Natural Light"]},
+								"label": {"en": ["Natural Light"]}
 							},
 							"target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1"
                         },
