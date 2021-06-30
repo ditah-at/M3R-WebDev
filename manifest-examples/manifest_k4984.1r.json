@@ -50,6 +50,25 @@
                         "profile": "level2"
                       }
                     ]
+                  },
+                  {
+                    "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE/full/full/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "width": 3280,
+                    "height": 4928,
+                    "label": {
+                      "en": [
+                        "Reference Image"
+                      ]
+                    },
+                    "service": [
+                      {
+                        "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE",
+                        "type": "ImageService2",
+                        "profile": "level2"
+                      }
+                    ]
                   }
                 ]
               },
