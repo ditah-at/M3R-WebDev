@@ -52,19 +52,19 @@
                     ]
                   },
                   {
-                    "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE/full/full/0/default.jpg",
+                    "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FCLR.365NM/full/full/0/default.jpg",
                     "type": "Image",
                     "format": "image/jpeg",
                     "width": 3280,
                     "height": 4928,
                     "label": {
                       "en": [
-                        "Reference Image"
+                        "CLR.365NM"
                       ]
                     },
                     "service": [
                       {
-                        "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE",
+                        "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FCLR.365NM",
                         "type": "ImageService2",
                         "profile": "level2"
                       }
