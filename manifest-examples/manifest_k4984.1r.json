@@ -89,19 +89,6 @@
                                 "type": "ImageService2",
                                 "profile": "level2"
                             }]
-                        },
-                        {
-                            "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.6504K/full/full/0/default.jpg",
-                            "type": "Image",
-                            "format": "image/jpeg",
-                            "width": 3280,
-                            "height": 4928,
-                            "label": {"en": ["GRY.6504K"]},
-                            "service": [{
-                                "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.6504K",
-                                "type": "ImageService2",
-                                "profile": "level2"
-                            }]
                         }
                     ]
                 },
