@@ -46,7 +46,7 @@
             "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/page/p1/1",
             "type": "AnnotationPage",
             "items": [{
-                            "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/annotation/p0001-image",
+                            "id": "image1",
 							"type": "Annotation",
 							"motivation": "painting",
 							"body": {
@@ -60,7 +60,7 @@
 							"target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1"
                         },
                         {
-							 "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/annotation/p0002-image",
+							 "id": "image2",
 							"type": "Annotation",
 							"motivation": "painting",
                             "body": {
@@ -74,7 +74,7 @@
 							"target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1"
                         }, 
                         {
-							 "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/annotation/p0003-image",
+							"id": "image3",
 							"type": "Annotation",
 							"motivation": "painting",
                             "body": {
