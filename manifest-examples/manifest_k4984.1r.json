@@ -1,71 +1,59 @@
 ﻿{
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://preview.iiif.io/cookbook/3333-choice/recipe/0033-choice/manifest.json",
+  "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/manifest.json",
   "type": "Manifest",
   "label": {
     "en": [
-      "Choice Example"
+      "K 4984, Folio 1r"
     ]
   },
+  "homepage": {
+        "id": "http://glossa.uni-graz.at/o:k4984.1r",
+        "type": "Image",
+        "label": {"en": ["Overview"]},
+        "format": "text/html",
+        "language": ["en"]
+    },
   "items": [
     {
-      "id": "https://preview.iiif.io/cookbook/3333-choice/recipe/0033-choice/canvas/p1",
+      "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1",
       "type": "Canvas",
-      "height": 1271,
-      "width": 2000,
+      "height": 4928,
+      "width": 3280,
       "items": [
         {
-          "id": "https://preview.iiif.io/cookbook/3333-choice/recipe/0033-choice/page/p1/1",
+          "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/page/p1/1",
           "type": "AnnotationPage",
           "items": [
             {
-              "id": "https://preview.iiif.io/cookbook/3333-choice/recipe/0033-choice/annotation/p0001-image",
+              "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
               "body": {
                 "type": "Choice",
                 "items": [
                   {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural/full/max/0/default.jpg",
+                    "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE/full/full/0/default.jpg",
                     "type": "Image",
                     "format": "image/jpeg",
-                    "width": 2000,
-                    "height": 1271,
+                    "width": 3280,
+                    "height": 4928,
                     "label": {
                       "en": [
-                        "Natural Light"
+                        "Reference Image"
                       ]
                     },
                     "service": [
                       {
-                        "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural",
-                        "type": "ImageService3",
-                        "profile": "level1"
-                      }
-                    ]
-                  },
-                  {
-                    "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-xray/full/max/0/default.jpg",
-                    "type": "Image",
-                    "format": "image/jpeg",
-                    "width": 2000,
-                    "height": 1271,
-                    "label": {
-                      "en": [
-                        "X-Ray"
-                      ]
-                    },
-                    "service": [
-                      {
-                        "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-xray",
-                        "type": "ImageService3",
-                        "profile": "level1"
+                        "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE",
+                        "type": "ImageService2",
+                        "profile": "level2"
                       }
                     ]
                   }
                 ]
               },
-              "target": "https://preview.iiif.io/cookbook/3333-choice/recipe/0033-choice/canvas/p1"
+              "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1"
             }
           ]
         }
