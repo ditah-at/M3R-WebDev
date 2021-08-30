@@ -14,92 +14,92 @@
                 "body": {
                     "type": "Choice",
                     "items": [{
-              "id": "http://glossa.uni-graz.at/o%3Ak4984.1r%2FREFERENCE/full/full/0/default.jpg",
+              "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE/full/full/0/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
                             "width": 3280,
                             "height": 4928,
                             "label": {"en": ["Reference Image"]},
                             "service": [{
-                                "id": "http://glossa.uni-graz.at/o%3Ak4984.1r%2FREFERENCE",
+                                "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE",
                                 "type": "ImageService2",
                                 "profile": "level2"
                             }]
               
               },{
-              "id": "http://glossa.uni-graz.at/o%3Ak4984.1r%2FCLR.365NM/full/full/0/default.jpg",
+              "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FCLR.365NM/full/full/0/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
                             "width": 3280,
                             "height": 4928,
                             "label": {"en": ["CLR.365NM"]},
                             "service": [{
-                                "id": "http://glossa.uni-graz.at/o%3Ak4984.1r%2FCLR.365NM",
+                                "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FCLR.365NM",
                                 "type": "ImageService2",
                                 "profile": "level2"
                             }]
               
               },{
-              "id": "http://glossa.uni-graz.at/o%3Ak4984.1r%2FGRY.365NM.UVB/full/full/0/default.jpg",
+              "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVB/full/full/0/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
                             "width": 3280,
                             "height": 4928,
                             "label": {"en": ["CLR.365NM.UVB"]},
                             "service": [{
-                                "id": "http://glossa.uni-graz.at/o%3Ak4984.1r%2FGRY.365NM.UVB",
+                                "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVB",
                                 "type": "ImageService2",
                                 "profile": "level2"
                             }]
               
               },{
-              "id": "http://glossa.uni-graz.at/o%3Ak4984.1r%2FGRY.365NM.UVP/full/full/0/default.jpg",
+              "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVP/full/full/0/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
                             "width": 3280,
                             "height": 4928,
                             "label": {"en": ["CLR.365NM.UVP"]},
                             "service": [{
-                                "id": "http://glossa.uni-graz.at/o%3Ak4984.1r%2FGRY.365NM.UVP",
+                                "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVP",
                                 "type": "ImageService2",
                                 "profile": "level2"
                             }]
               
               },{
-              "id": "http://glossa.uni-graz.at/o%3Ak4984.1r%2FGRY.450NM/full/full/0/default.jpg",
+              "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.450NM/full/full/0/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
                             "width": 3280,
                             "height": 4928,
                             "label": {"en": ["GRY.450NM"]},
                             "service": [{
-                                "id": "http://glossa.uni-graz.at/o%3Ak4984.1r%2FGRY.450NM",
+                                "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.450NM",
                                 "type": "ImageService2",
                                 "profile": "level2"
                             }]
               
               },{
-              "id": "http://glossa.uni-graz.at/o%3Ak4984.1r%2FGRY.6504K/full/full/0/default.jpg",
+              "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.6504K/full/full/0/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
                             "width": 3280,
                             "height": 4928,
                             "label": {"en": ["GRY.6504K"]},
                             "service": [{
-                                "id": "http://glossa.uni-graz.at/o%3Ak4984.1r%2FGRY.6504K",
+                                "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.6504K",
                                 "type": "ImageService2",
                                 "profile": "level2"
                             }]
               
               },{
-              "id": "http://glossa.uni-graz.at/o%3Ak4984.1r%2FPCA.PC1PC3PC4/full/full/0/default.jpg",
+              "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FPCA.PC1PC3PC4/full/full/0/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
                             "width": 3280,
                             "height": 4928,
                             "label": {"en": ["PCA.PC1PC3PC4"]},
                             "service": [{
-                                "id": "http://glossa.uni-graz.at/o%3Ak4984.1r%2FPCA.PC1PC3PC4",
+                                "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FPCA.PC1PC3PC4",
                                 "type": "ImageService2",
                                 "profile": "level2"
                             }]
