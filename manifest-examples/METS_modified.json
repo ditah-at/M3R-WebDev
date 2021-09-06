@@ -78,32 +78,6 @@
                                 "profile": "level2"
                             }]
               
-              },{
-              "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.6504K/full/full/0/default.jpg",
-                            "type": "Image",
-                            "format": "image/jpeg",
-                            "width": 3280,
-                            "height": 4928,
-                            "label": {"en": ["GRY.6504K"]},
-                            "service": [{
-                                "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.6504K",
-                                "type": "ImageService2",
-                                "profile": "level2"
-                            }]
-              
-              },{
-              "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FPCA.PC1PC3PC4/full/full/0/default.jpg",
-                            "type": "Image",
-                            "format": "image/jpeg",
-                            "width": 3280,
-                            "height": 4928,
-                            "label": {"en": ["PCA.PC1PC3PC4"]},
-                            "service": [{
-                                "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FPCA.PC1PC3PC4",
-                                "type": "ImageService2",
-                                "profile": "level2"
-                            }]
-              
               }]},
     "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1"
     }]
