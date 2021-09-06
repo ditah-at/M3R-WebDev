@@ -14,7 +14,7 @@
                 "body": {
                     "type": "Choice",
                     "items": [{
-              "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE/full/full/0/default.jpg",
+              "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE/full/full/45/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
                             "width": 3280,
