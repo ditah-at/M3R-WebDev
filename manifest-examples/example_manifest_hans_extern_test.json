@@ -13,8 +13,8 @@
     "items": [{
         "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1",
         "type": "Canvas",
-        "height": 9856,
-        "width": 6560,
+        "height": 17928,
+        "width": 13432,
         "items": [{
             "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r/page/p1/1",
             "type": "AnnotationPage",
@@ -27,8 +27,8 @@
                         "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE/full/full/0/default.jpg",
                         "type": "Image",
                         "format": "image/jpeg",
-                        "width": 3280,
-                        "height": 4928,
+                        "width": 2429,
+                        "height": 3248,
                         "label": {"en": ["Reference Image"]},
                         "service": [{
                             "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE",
@@ -46,8 +46,8 @@
                         "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FCLR.365NM/full/full/0/default.jpg",
                         "type": "Image",
                         "format": "image/jpeg",
-                        "width": 3280,
-                        "height": 4928,
+                        "width": 2429,
+                        "height": 3248,
                         "label": {"en": ["CLR.365NM"]},
                         "service": [{
                             "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FCLR.365NM",
@@ -65,8 +65,8 @@
                          "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVB/full/full/0/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
-                            "width": 4868,
-                            "height": 6497,
+                            "width": 6716,
+                            "height": 8964,
                             "label": {"en": ["CLR.365NM.UVB"]},
                             "service": [{
                                 "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVB",
