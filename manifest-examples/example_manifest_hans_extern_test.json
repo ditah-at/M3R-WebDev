@@ -13,8 +13,8 @@
     "items": [{
         "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1",
         "type": "Canvas",
-        "height": 4928,
-        "width": 3280,
+        "height": 9856,
+        "width": 6560,
         "items": [{
             "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r/page/p1/1",
             "type": "AnnotationPage",
@@ -36,7 +36,7 @@
                             "profile": "level2"
                         }]
                     },
-                    "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=0,0,500,500"
+                    "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=0,0,3280,4928"
                 },
                 {
                     "id": "https://glossa.uni-graz.at/iiif/o:k4984.1rannotation/p0001-image",
@@ -55,7 +55,7 @@
                             "profile": "level2"
                         }]
                     },
-                    "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=500,500,500,500"
+                    "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=0,0,3280,4928"
                 },
                 {
                     "id": "https://glossa.uni-graz.at/iiif/o:k4984.1rannotation/p0001-image",
