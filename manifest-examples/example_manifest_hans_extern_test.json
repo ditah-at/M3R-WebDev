@@ -55,7 +55,7 @@
                             "profile": "level2"
                         }]
                     },
-                    "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=0,0,3280,4928"
+                    "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=0,0,500,500"
                 },
                 {
                     "id": "https://glossa.uni-graz.at/iiif/o:k4984.1rannotation/p0001-image",
