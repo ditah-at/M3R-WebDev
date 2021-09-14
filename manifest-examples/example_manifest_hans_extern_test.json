@@ -1,126 +1,88 @@
-﻿{
-    "@context": "http://iiif.io/api/presentation/2/context.json",
-    "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/manifest.json",
-    "type": "Manifest",
-    "homepage": {
-        "id": "http://glossa.uni-graz.at/o:k4984.1r",
-        "type": "Image",
-        "label": {"en": ["Übersicht"]},
+﻿{"@context": "http://iiif.io/api/presentation/3/context.json","@id":"https://glossa.uni-graz.at/iiif/o:k4984.1r/manifest.json","type":"Manifest","label": {"en": ["K 4984, Folio 1r"]},"homepage":{"id":"https://glossa.uni-graz.at/o:k4984.1r","type":"Image",
+        "label": {"en": ["Overview of Images and Spectroscopic Measurements"]},
         "format": "text/html",
         "language": ["en"]
-    },
-    "rights": "http://creativecommons.org/licenses/by/4.0/",
-    "summary": {"en": ["This is a summary of the object."]},
-    "label": {"en": ["K49841.1r"]},
-    "metadata": [{
-        "label": {"en": ["Author"]},
-        "value": {"none": ["<span><a href='https://github.com/larifarian'>Hans Clausen<\/a><\/span>"]}
-    }],
-    "items": [{
-        "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1",
-        "type": "Canvas",
-        "height": 3066,
-        "width": 3091,
-        "label": {
-            "en": ["Example Choice"],
-            "de": ["Beispiel Layer"]
-        },
-        "homepage": {
-            "id": "http://glossa.uni-graz.at/o:k4984.1r",
-            "type": "Image",
-            "label": {"en": ["Übersicht"]},
-            "format": "text/html",
-            "language": ["en"]
-        },
-        "metadata": [
-            {
-                "label": {"en": ["Description"]},
-                "value": {"en": ["This manuscript page shows ...[evtl. TEI header]"]}
-            },
-            {
-                "label": {"en": ["test"]},
-                "value": {"en": ["Ttest"]}
-            }
-        ],
-        "items": [{
-            "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/page/p1/1",
-            "type": "AnnotationPage",
+    },"items":[{"id":"https://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1","type": "Canvas",
+          "height": 4928,
+        "width": 3280,
+      
+          "items": [{
+            "id":"https://glossa.uni-graz.at/iiif/o:k4984.1r/page/p1/1","type": "AnnotationPage",
             "items": [{
-                "id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/annotation/p0001-image",
-                "type": "Annotation",
+                "id": "https://glossa.uni-graz.at/iiif/o:k4984.1rannotation/p0001-image","type": "Annotation",
                 "motivation": "painting",
                 "body": {
                     "type": "Choice",
-                    "items": [
-                        {
-                            "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FTEST2/full/full/0/default.jpg",
-                            "type": "Image",
-                            "format": "image/jpg",
-                            "height": 600,
-                            "width": 600,
-                            "label": {"en": ["test2"]},
-                            "service": {
-                                "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FTEST2",
-                                "type": "ImageService2",
-                                "profile": "level2"
-                            }
-                        },
-                        {
-                            "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural/full/max/0/default.jpg",
+                    "items": [{
+              "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE/full/full/0/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
-                            "width": 2000,
-                            "height": 1271,
-                            "label": {"en": ["Natural Light"]},
-                            "service": [{
-                                "id": "https://iiif.io/api/image/3.0/example/reference/421e65be2ce95439b3ad6ef1f2ab87a9-dee-natural",
-                                "type": "ImageService3",
-                                "profile": "level1"
-                            }]
-                        },
-                        {
-                            "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FTEST/full/full/0/default.png",
-                            "type": "Image",
-                            "format": "image/png",
-                            "height": 640,
-                            "width": 400,
-                            "label": {"en": ["test"]},
-                            "service": {
-                                "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FTEST",
-                                "type": "ImageService2",
-                                "profile": "level2"
-                            }
-                        },
-                        {
-                            "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE/full/full/0/default.jpg",
-                            "type": "Image",
-                            "format": "image/jpeg",
-                            "height": 4928,
                             "width": 3280,
-                            "label": {"en": ["test"]},
-                            "service": {
+                            "height": 4928,
+                            "label": {"en": ["Reference Image"]},
+                            "service": [{
                                 "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE",
                                 "type": "ImageService2",
                                 "profile": "level2"
-                            }
-                        }, 
-                        {
-                            "label": "Accurate Color Diffuse",
-                            "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-00.jp2/full/full/0/default.jpg",
-                            "@type": "dctypes:Image",
+                            }]
+              
+              },{
+              "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FCLR.365NM/full/full/0/default.jpg",
+                            "type": "Image",
                             "format": "image/jpeg",
-                            "service": {
-                                "@context": "https://iiif.io/api/image/2/context.json",
-                                "@id": "https://jubilees.stmarytx.edu/iiif/Figurine-Ac-00.jp2",
-                                "profile": "https://iiif.io/api/image/2/level1.json"
-                            },
-                            "height": 6132,
-                            "width": 8181
-                        }
-                    ]
-                },
-                "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1"
-            }]
-        }]
+                            "width": 3280,
+                            "height": 4928,
+                            "label": {"en": ["CLR.365NM"]},
+                            "service": [{
+                                "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FCLR.365NM",
+                                "type": "ImageService2",
+                                "profile": "level2"
+                            }]
+              
+              },{
+              "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVB/full/full/0/default.jpg",
+                            "type": "Image",
+                            "format": "image/jpeg",
+                            "width": 3280,
+                            "height": 4928,
+                            "label": {"en": ["CLR.365NM.UVB"]},
+                            "service": [{
+                                "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVB",
+                                "type": "ImageService2",
+                                "profile": "level2"
+                            }]
+              
+              },{
+              "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVP/full/full/0/default.jpg",
+                            "type": "Image",
+                            "format": "image/jpeg",
+                            "width": 3280,
+                            "height": 4928,
+                            "label": {"en": ["CLR.365NM.UVP"]},
+                            "service": [{
+                                "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVP",
+                                "type": "ImageService2",
+                                "profile": "level2"
+                            }]
+              
+              },{
+              "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.450NM/full/full/0/default.jpg",
+                            "type": "Image",
+                            "format": "image/jpeg",
+                            "width": 3280,
+                            "height": 4928,
+                            "label": {"en": ["GRY.450NM"]},
+                            "service": [{
+                                "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.450NM",
+                                "type": "ImageService2",
+                                "profile": "level2"
+                            }]
+              
+              }]},
+    "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1"
     }]
-}
+    }]
+    }]
+    
+      
+  }
