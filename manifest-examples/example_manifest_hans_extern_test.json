@@ -55,7 +55,7 @@
                             "profile": "level2"
                         }]
                     },
-                    "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=0,0,500,500"
+                    "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=0,0,3280,4928"
                 },
                 {
                     "id": "https://glossa.uni-graz.at/iiif/o:k4984.1rannotation/p0001-image",
@@ -65,8 +65,8 @@
                          "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVB/full/full/0/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
-                            "width": 500,
-                            "height": 500,
+                            "width": 4868,
+                            "height": 6497,
                             "label": {"en": ["CLR.365NM.UVB"]},
                             "service": [{
                                 "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVB",
