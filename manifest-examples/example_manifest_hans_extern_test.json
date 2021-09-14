@@ -69,8 +69,8 @@
               "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.450NM/full/full/0/default.jpg",
                             "type": "Image",
                             "format": "image/jpeg",
-                            "width": 3280,
-                            "height": 4928,
+                            "width": 500,
+                            "height": 500,
                             "label": {"en": ["GRY.450NM"]},
                             "service": [{
                                 "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.450NM",
