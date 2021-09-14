@@ -18,25 +18,46 @@
         "items": [{
             "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r/page/p1/1",
             "type": "AnnotationPage",
-            "items": [{
-                "id": "https://glossa.uni-graz.at/iiif/o:k4984.1rannotation/p0001-image",
-                "type": "Annotation",
-                "motivation": "painting",
-                "body": {
-                    "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE/full/full/0/default.jpg",
-                    "type": "Image",
-                    "format": "image/jpeg",
-                    "width": 3280,
-                    "height": 4928,
-                    "label": {"en": ["Reference Image"]},
-                    "service": [{
-                        "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE",
-                        "type": "ImageService2",
-                        "profile": "level2"
-                    }]
+            "items": [
+                {
+                    "id": "https://glossa.uni-graz.at/iiif/o:k4984.1rannotation/p0001-image",
+                    "type": "Annotation",
+                    "motivation": "painting",
+                    "body": {
+                        "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE/full/full/0/default.jpg",
+                        "type": "Image",
+                        "format": "image/jpeg",
+                        "width": 3280,
+                        "height": 4928,
+                        "label": {"en": ["Reference Image"]},
+                        "service": [{
+                            "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FREFERENCE",
+                            "type": "ImageService2",
+                            "profile": "level2"
+                        }]
+                    },
+                    "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=0,0,500,500"
                 },
-                "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=0,0,500,500"
-            }]
+                {
+                    "id": "https://glossa.uni-graz.at/iiif/o:k4984.1rannotation/p0001-image",
+                    "type": "Annotation",
+                    "motivation": "painting",
+                    "body": {
+                        "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FCLR.365NM/full/full/0/default.jpg",
+                        "type": "Image",
+                        "format": "image/jpeg",
+                        "width": 3280,
+                        "height": 4928,
+                        "label": {"en": ["CLR.365NM"]},
+                        "service": [{
+                            "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FCLR.365NM",
+                            "type": "ImageService2",
+                            "profile": "level2"
+                        }]
+                    },
+                    "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=500,500,500,500"
+                }
+            ]
         }]
     }]
 }
