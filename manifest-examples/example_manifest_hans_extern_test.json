@@ -63,8 +63,8 @@
                     "motivation": "painting",
                     "stylesheet": {
                         "type": [
-                            "oa:CssStyle",
-                            "cnt:ContextAsText"
+                            "CssStyle",
+                            "ContextAsText"
                         ],
                         "chars": ".rotated {transform-origin: top left; transform: rotate(-45deg);}"
                     },
