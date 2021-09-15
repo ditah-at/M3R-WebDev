@@ -58,28 +58,28 @@
                     "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=500,1000,2429,3248"
                 },
                 {
-                    "id": "https://glossa.uni-graz.at/iiif/o:k4984.1rannotation/p0001-image",
-                    "type": "Annotation",
+                    "@id": "https://glossa.uni-graz.at/iiif/o:k4984.1rannotation/p0001-image",
+                    "@type": "Annotation",
                     "motivation": "painting",
                     "body": {
-                        "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVB/full/full/90/default.jpg",
-                        "type": "oa:SpecificResource",
+                        "@id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVB/full/full/90/default.jpg",
+                        "@type": "oa:SpecificResource",
                         "full": {
-                            "id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVB/full/full/0/default.jpg",
-                            "type": "Image",
+                            "@id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVB/full/full/0/default.jpg",
+                            "@type": "Image",
                             "format": "image/jpeg",
                             "width": 6716,
                             "height": 8964,
                             "label": {"en": ["CLR.365NM.UVB"]},
                             "service": [{
-                                "id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVB",
-                                "type": "ImageService2",
+                                "@id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVB",
+                                "@type": "ImageService2",
                                 "profile": "level2"
                             }]
                         },
                         "selector": {
-                            "context": "http://iiif.io/api/annex/openannotation/context.json",
-                            "type": "iiif:ImageApiSelector",
+                            "@context": "http://iiif.io/api/annex/openannotation/context.json",
+                            "@type": "iiif:ImageApiSelector",
                             "rotation": "90"
                         }
                     },
