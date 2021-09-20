@@ -80,15 +80,15 @@
                 {
                     "id": "https://glossa.uni-graz.at/iiif/o:k4984.1rannotation/p0001-text",
                     "type": "Annotation",
-                    "motivation": "supplementing",
+                    "motivation": "painting",
                     "body": {
-                        "id": "https://palimpsest.stmarytx.edu/iiifp/LatinMoses/list/5c083.json/annotation2",
-                        "type": "Text",
+                        "id": "https://glossa.uni-graz.at/iiif/o:k4984.1rannotation/p0001-textcontent",
+                        "type": "ContentAsText",
                         "label": {"en": ["Measurement"]},
-                        "chars": "Transcriptions and Translations:<ol><li>Ceriani 1861 TEI <a href=\"https://palimpsest.stmarytx.edu/annotations/Ceriani_1861.xml#palimpsest_page_062\" target=\"_blank\">Simple<\/a> <a href=\"https://palimpsest.stmarytx.edu/annotations/Ceriani_1861_015.tei.xml\" target=\"_blank\">XML<\/a> <a href=\"https://palimpsest.stmarytx.edu/annotations/Ceriani_1861_015.tei.html\" target=\"_blank\">HTML<\/a><\/li><li><a href=\"https://palimpsest.stmarytx.edu/annotations/LatinMoses-Translation.xml#5c083\" target=\"_blank\">Translation Latest<\/a><\/li><li><a href=\"https://palimpsest.stmarytx.edu/annotations/VanderKam-Translation-Latin.xml#5c083\" target=\"_blank\">Translation VanderKam 1989 (Latin)<\/a><\/li><li><a href=\"https://palimpsest.stmarytx.edu/annotations/VanderKam-Translation-Ethiopic.xml#5c083\" target=\"_blank\">Translation VanderKam 1989 (Ethiopic)<\/a><\/li><\/ol>",
-                        "format": "text/html"
+                        "chars": "test",
+                        "format": "text/plain"
                     },
-                    "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=124,352,3512,4688"
+                    "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=500,1000,2429,3248"
                 }
             ]
         }]
