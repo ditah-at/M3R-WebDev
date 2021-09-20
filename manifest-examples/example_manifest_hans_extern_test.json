@@ -13,6 +13,7 @@
     "items": [{
         "id": "https://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1",
         "type": "Canvas",
+        "label": "K 4984, Folio 1r",
         "height": 17928,
         "width": 13432,
         "items": [{
