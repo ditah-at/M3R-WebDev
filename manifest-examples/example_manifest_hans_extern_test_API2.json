@@ -32,7 +32,47 @@
                     "width": 2429
                 },
                 "on": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=500,1000,2429,3248"
-            }],
+            },
+            {
+                "@id": "https://glossa.uni-graz.at/iiif/o:k4984.1rannotation/p0002-image",
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "resource": {
+                    "@id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FCLR.365NM/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "service": {
+                        "@context": "http://iiif.io/api/image/2/context.json",
+                        "@id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FCLR.365NM",
+                        "profile": "http://iiif.io/api/image/2/profiles/level2.json"
+                    },
+                    "height": 3248,
+                    "width": 2429
+                },
+                "on": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=500,1000,2429,3248"
+            }
+            ,
+            {
+                "@id": "https://glossa.uni-graz.at/iiif/o:k4984.1rannotation/p0003-image",
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "resource": {
+                    "@id": "http://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVB/full/full/0/default.jpg",
+                    "@type": "dctypes:Image",
+                    "format": "image/jpeg",
+                    "service": {
+                        "@context": "http://iiif.io/api/image/2/context.json",
+                        "@id": "https://glossa.uni-graz.at/iiif/o%3Ak4984.1r%2FGRY.365NM.UVB",
+                        "profile": "http://iiif.io/api/image/2/profiles/level2.json"
+                    },
+                    "height": 8964,
+                    "width": 6716
+                },
+                "on": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=124,352,3512,4688"
+            }
+            
+            
+            ],
             "otherContent": [{
                 "@id": "http://www.example.org/iiif/book1/list/p1",
                 "@type": "sc:AnnotationList"
