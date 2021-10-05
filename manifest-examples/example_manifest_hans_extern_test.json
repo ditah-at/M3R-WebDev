@@ -76,19 +76,6 @@
                         }]
                     },
                     "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=124,352,3512,4688"
-                },
-                {
-                    "id": "https://glossa.uni-graz.at/iiif/o:k4984.1rannotation/p0001-text",
-                    "type": "Annotation",
-                    "motivation": "painting",
-                    "body": {
-                        "id": "https://glossa.uni-graz.at/iiif/o:k4984.1rannotation/p0001-textcontent",
-                        "type": "ContentAsText",
-                        "label": {"en": ["Measurement"]},
-                        "chars": "test",
-                        "format": "text/plain"
-                    },
-                    "target": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=500,1000,2429,3248"
                 }
             ]
         }]
