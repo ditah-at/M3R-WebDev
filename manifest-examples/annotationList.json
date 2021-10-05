@@ -1,13 +1,17 @@
-{"@type": "sc:AnnotationList",
-"@id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/list/figurine.json",
-"@context": "https://iiif.io/api/presentation/2/context.json",
-"resources": [
-	{"@label":"Measurement",
-		"@type":"oa:Annotation","motivation":"sc:painting","resource":{
-		"@id":"http://glossa.uni-graz.at/iiif/o:k4984.1r/list/figurine.json/annotation1",
-		"@type":"dctypes:Text",
-		"format":"text/html",
-		"chars":"Measurement: <ol><li><a href=\"https://palimpsest.stmarytx.edu/webrti/20140306-Sold-99-Acce-04-50m-175.wrti.html\" target=\"_blank\">Accurate Color WebRTI</a></li><li><a href=\"https://palimpsest.stmarytx.edu/webrti/20140408-Sold-99-Xepn-04-50m-n.wrti.html\" target=\"_blank\">Extended Spectrum WebRTI</a></li><li><a href=\"https://palimpsest.stmarytx.edu/webrti/20140423-Sold-99-Pepl-04-50m.wrti.html\" target=\"_blank\">PCA Pseudocolor WebRTI</a></li></ol>"},
-	"on":"http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=500,1000,500,500"}
-]
+{
+    "@type": "sc:AnnotationList",
+    "@id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/list/figurine.json",
+    "@context": "https://iiif.io/api/presentation/2/context.json",
+    "resources": [{
+        "@label": "Measurement",
+        "@type": "oa:Annotation",
+        "motivation": "sc:painting",
+        "resource": {
+            "@id": "http://glossa.uni-graz.at/iiif/o:k4984.1r/list/figurine.json/annotation1",
+            "@type": "dctypes:Text",
+            "format": "text/html",
+            "chars": "Measurement: <ol><li><a href=\"https://palimpsest.stmarytx.edu/webrti/20140306-Sold-99-Acce-04-50m-175.wrti.html\" target=\"_blank\">Accurate Color WebRTI<\/a><\/li><li><a href=\"https://palimpsest.stmarytx.edu/webrti/20140408-Sold-99-Xepn-04-50m-n.wrti.html\" target=\"_blank\">Extended Spectrum WebRTI<\/a><\/li><li><a href=\"https://palimpsest.stmarytx.edu/webrti/20140423-Sold-99-Pepl-04-50m.wrti.html\" target=\"_blank\">PCA Pseudocolor WebRTI<\/a><\/li><\/ol>"
+        },
+        "on": "http://glossa.uni-graz.at/iiif/o:k4984.1r/canvas/p1#xywh=500,1000,500,500"
+    }]
 }
