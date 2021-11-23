@@ -4,9 +4,12 @@
         <script src="https://unpkg.com/@observablehq/plot@0.2.9/dist/plot.umd.min.js"></script>
         <script src='spectra-graph.js'></script>
     </head>
-    <body onload="showSpectrum()">
-        <h1>A spectral view</h1>
-        <button type="button" onclick="showSpectrum()">Show!</button>
+    <!--<body onload="showSpectrum('http://glossa.uni-graz.at/archive/get/o:mmmr.k4984.1r/FTIR.MP01')">-->
+    <body>
+        <h1>Spectrum viewer</h1>
+        <button type="button" onclick="showSpectrum('http://localhost/ditah/testspectra/FTIR.MP01.jdx', 'graphcontainer')">Show FTIR.MP01!</button>
+        <button type="button" onclick="showSpectrum('http://localhost/ditah/testspectra/XRF.MP01.jdx', 'graphcontainer')">Show XRF.MP01!</button>
+        <button type="button" onclick="showSpectrum('http://localhost/ditah/testspectra/RAMAN.MP01.jdx', 'graphcontainer')">Show RAMAN.MP01!</button>
         <div id="graphcontainer"></div>
     </body>
 </html>

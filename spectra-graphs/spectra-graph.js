@@ -1,40 +1,50 @@
-function loadJcamp(path){
-    var file = new File(['asdf'], path, {type: "text/plain"})
-    if (!path) {
-        return;
-    }
-    var reader = new FileReader();
-    // reader.onload = function(e) {
-    //     var contents = e.target.result;
-    //     displayContents(contents);
-    // };
-    var content = reader.readAsText(file);
-    return content
-}
 
 
-
-
-function showSpectrum() {
-    loadJcamp('./exampledata/FTIR.MP01.jdx')
-    const csvUrl =
-      'https://gist.githubusercontent.com/curran/a08a1080b88344b0c8a7' +
-      '/raw/0e7a9b0a5d22642a06d3d5b9bcbad9890c8ee534/iris.csv';
-    d3.csv(csvUrl, d3.autoType).then((data) => {
-        var sorted = data.sort(function(a, b) {return a.petal_length - b.petal_length;});
-        var plot  = Plot.plot({
-        width: window.innerWidth,
-        height: window.innerHeight,
-        marks: [
-          Plot.line(sorted, {
-            x: 'petal_length',
-            y: 'petal_width'
-          }),
-        ],
-      })
-        document.getElementById("graphcontainer").appendChild(plot);
+function showSpectrum(url, target_element_id) {
+  fetch(url, {mode: 'cors'}).then((r)=>{r.text().then((d)=>{
+    var jcampLines = d.split(/\r\n|\n/);
+    var spectralData = [];
+    var xunits = '';
+    var yunits = '';
+    jcampLines.forEach((line) => {
+      elems = line.split(' ');
+      if (elems.length == 2){
+        if (elems[0] == '##XUNITS=')
+          xunits = elems[1];
+        else if (elems[0] == '##YUNITS=')
+          yunits = elems[1];
+      }
+    });
+    jcampLines.forEach((line) => {
+      elems = line.split(' ');
+      if (!isNaN(elems[0]) && !isNaN(elems[1])){
+        var point = {};
+        point[xunits] = Number(elems[0]);
+        point[yunits] = Number(elems[1]);
+        spectralData.push(point);
+      }
     });
 
+    //var sorted = spectralData.sort(function(a, b) {return a.xunit - b.yunit;});
+    var plot  = Plot.plot({
+      width: 500,
+      height: 300,
+      y: {
+        grid: true
+      },
+      marks: [
+        Plot.line(spectralData, {
+          x: xunits,
+          y: yunits
+        }),
+      ],
+    });
     
+    plot.id = target_element_id;
+    document.getElementById(target_element_id).replaceWith(plot);
+    //document.getElementById(parent_id).appendChild(plot);
+
+  }, reason => {console.log(reason)})
+}, reason => {console.log(reason)})
 }
 
