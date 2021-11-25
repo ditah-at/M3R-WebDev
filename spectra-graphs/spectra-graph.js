@@ -35,7 +35,7 @@ const ELEMENTAL_LINES = [
   // [44, "Ru", "ruthenium", 19.28, 19.15, 21.66, 2.56, 2.55, 2.68, 2.84, 2.96],
   // [45, "Rh", "rhodium", 20.22, 20.07, 22.72, 2.70, 2.69, 2.83, 3.00, 3.14],
   // [46, "Pd", "palladium", 21.18, 21.02, 23.82, 2.84, 2.83, 2.99, 3.17, 3.33],
-  [47, "Ag", "silver", 22.16, 21.99, 24.94, 2.98, 2.98, 3.15, 3.35, 3.52],
+  // [47, "Ag", "silver", 22.16, 21.99, 24.94, 2.98, 2.98, 3.15, 3.35, 3.52],
   // [48, "Cd", "cadmium", 23.17, 22.98, 26.10, 3.13, 3.13, 3.32, 3.53, 3.72],
   // [49, "In", "indium", 24.21, 24.00, 27.28, 3.29, 3.28, 3.49, 3.71, 3.92],
   // [50, "Sn", "tin", 25.27, 25.04, 28.49, 3.44, 3.44, 3.66, 3.90, 4.13],
@@ -84,8 +84,17 @@ const ELEMENTAL_LINES = [
 ];
 
 
-function showSpectrum(url, target_element_id) {
-  fetch(url, {mode: 'cors'}).then((r)=>{r.text().then((d)=>{
+function showSpectrum(jcampUrl, targetElementId, insertionMode='replace', smoothing=5) {
+  /**
+ * Plots a jcamp-dx file.
+ *
+ * @jcampUrl        url to the jcamp-dx file that should be visualized
+ * @targetElementId id of DOM-Element, where the plot should be inserted
+ * @insertionMode   how the plot should be inserted. valid values: 'replace' (replaces the element), 'append' (appends to the element as a child)
+ * @smoothing       window size for a simple moving average smoothing of the spectrum
+ */
+
+  fetch(jcampUrl, {mode: 'cors'}).then((r)=>{r.text().then((d)=>{
     // parse jcamp file
     var jcampLines = d.split(/\r\n|\n/);
     var datatype = '';
@@ -124,29 +133,27 @@ function showSpectrum(url, target_element_id) {
       }
     });
 
+    // smooth the spectrum
+    const s = Math.floor(smoothing / 2);
+    var y = spectralData.map((p) => p[yunits]);
+    var yFilt = [...y];
+    for (var i=0; i<y.length; i++){
+      var lower = Math.max(i-s, 0);
+      var upper = Math.min(i+s, y.length);
+      yFilt[i] = y.slice(lower, upper).reduce((a, b) => a+b) / (upper-lower);
+    }
+    // write the smoothed values back to the original spectrum.. i am sure there is a more elegant way for this.
+    for(var i=0; i<spectralData.length; i++){
+      spectralData[i][yunits] = yFilt[i];
+    }
+
+
     // xrf specific stuff
     if (isXRF){
-      //actually, only the first half of the spectrum is interesting (TODO: check)
+      //seems like in our applications, only the first half of the spectrum is interesting (TODO: check if this is true)
       spectralData = spectralData.slice(0, spectralData.length/2);
 
-      
-      // smooth the array
-      const s = 10;
-      var x = spectralData.map((p) => p[xunits]);
-      var y = spectralData.map((p) => p[yunits]);
-      var yFilt = [...y];
-      for (var i=0; i<y.length; i++){
-        var lower = Math.max(i-s, 0);
-        var upper = Math.min(i+s, y.length);
-        yFilt[i] = y.slice(lower, upper).reduce((a, b) => a+b) / (upper-lower);
-      }
-      // write smoothed array back to original data. TODO: check if this is desired.
-      for(var i=0; i<spectralData.length; i++){
-        spectralData[i][yunits] = yFilt[i];
-      }
-
-      // 2. find peaks
-      //TODO. for now: draw peaks for some important elements..
+      // TODO: add peak lines. For demonstration, nuw just the lines of some important elements are drawn..
       var peaks = ELEMENTAL_LINES.map((row) => {
         return {
           number: row[0],
@@ -157,8 +164,6 @@ function showSpectrum(url, target_element_id) {
           kBeta: row[5]
         }
       })
-      
-
     }
     
     //make the plot
@@ -186,10 +191,14 @@ function showSpectrum(url, target_element_id) {
     
     //insert into DOM
     //version 1: replace an element
-    plot.id = target_element_id;
-    document.getElementById(target_element_id).replaceWith(plot);
-    //version 2: append a child to an element
-    //document.getElementById(parent_id).appendChild(plot);
+    if (insertionMode == 'replace'){
+      plot.id = targetElementId;
+      document.getElementById(targetElementId).replaceWith(plot);
+    } else if (insertionMode == 'append'){
+      document.getElementById(targetElementId).appendChild(plot);
+    } else{
+      console.error("Invalid insertionMode provided to showSpectrum() - valid values: 'replace', 'insert'.");
+    }
 
   }, reason => {console.log(reason)})
 }, reason => {console.log(reason)})
