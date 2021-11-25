@@ -173,7 +173,7 @@ function showSpectrum(jcampUrl, targetElementId, insertionMode='replace', smooth
         y: yunits,
         stroke: '#885457',
         sort: xunits
-      })]
+      })];
     if (isXRF){
       plotmarks.push(Plot.ruleX(peaks, {x: 'kAlpha1'}),
                      Plot.text(peaks, {x: 'kAlpha1', y: -10, text: 'symbol'}));
