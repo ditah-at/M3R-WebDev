@@ -130,7 +130,7 @@ function findPeaksLocalMax(x, y) {
 }
 
 
-function showSpectrum(jcampUrl, targetElementId, insertionMode='replace', smoothing=5) {
+function showSpectrum(jcampUrl, targetElementId, insertionMode='replace', width=640, height=396, smoothing=5) {
   /**
  * Plots a jcamp-dx file.
  *
@@ -266,6 +266,8 @@ function showSpectrum(jcampUrl, targetElementId, insertionMode='replace', smooth
       x: {
         reverse: deltax<0
       },
+      width: width,
+      height: height,
       marks: plotmarks
     });
     
