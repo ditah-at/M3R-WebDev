@@ -235,6 +235,7 @@ function showSpectrum(jcampUrl, targetElementId, insertionMode='replace', width=
 
     
     //make the plot
+     
     var plotmarks = [
       Plot.line(spectralData, {
         x: xunits,
@@ -242,6 +243,12 @@ function showSpectrum(jcampUrl, targetElementId, insertionMode='replace', width=
         stroke: '#885457',
         sort: xunits
       })];
+    var yParams = {
+      grid: true
+    };
+    var xParams = {
+      reverse: deltax<0
+    };
     if (isXRF){
       plotmarks.push(Plot.ruleX(elemLines, {x: 'x', 
                                             y1: 0,
@@ -256,16 +263,14 @@ function showSpectrum(jcampUrl, targetElementId, insertionMode='replace', width=
                                            dx: -5,
                                            stroke: '#EC8955',
                                            fontSize: 8}));
+      yParams.domain = [-99, yMax];
     }
+
+    
     
     var plot  = Plot.plot({
-      y: {
-        grid: true,
-        domain: [-99, yMax]
-      },
-      x: {
-        reverse: deltax<0
-      },
+      y: yParams,
+      x: xParams,
       width: width,
       height: height,
       marks: plotmarks
