@@ -1,9 +1,4 @@
 const ELEMENTAL_LINES = [
-  [11, "Na", "sodium", 1.04, 1.04, 1.07],
-  // [12, "Mg", "magnesium", 1.25, 1.25, 1.30],
-  // [13, "Al", "aluminium", 1.48, 1.49, 1.56],
-  // [14, "Si", "silicon", 1.74, 1.74, 1.84],
-  // [15, "P", "phosphorus", 2.01, 2.01, 2.14],
   [16, "S", "sulfur", 2.31, 2.31, 2.46],
   [17, "Cl", "chlorine", 2.62, 2.62, 2.81],
   // [18, "Ar", "argon", 2.96, 2.96, 3.19],
@@ -13,15 +8,15 @@ const ELEMENTAL_LINES = [
   [22, "Ti", "titanium", 4.51, 4.50, 4.93, 0.45, 0.45, 0.46],
   // [23, "V", "vanadium", 4.95, 4.94, 5.43, 0.51, 0.51, 0.52],
   // [24, "Cr", "chromium", 5.41, 5.41, 5.95, 0.57, 0.57, 0.58],
-  [25, "Mn", "manganese", 5.90, 5.89, 6.49, 0.64, 0.64, 0.65],
+  // [25, "Mn", "manganese", 5.90, 5.89, 6.49, 0.64, 0.64, 0.65],
   [26, "Fe", "iron", 6.40, 6.39, 7.06, 0.71, 0.71, 0.72],
   // [26, "Co", "cobalt", 6.93, 6.92, 7.65, 0.78, 0.78, 0.79],
-  // [28, "Ni", "nickel", 7.48, 7.46, 8.26, 0.85, 0.85, 0.87],
+  [28, "Ni", "nickel", 7.48, 7.46, 8.26, 0.85, 0.85, 0.87],
   [29, "Cu", "copper", 8.05, 8.03, 8.91, 0.93, 0.93, 0.95],
-  // [30, "Zn", "zinc", 8.64, 8.62, 9.57, 1.01, 1.01, 1.03],
+  [30, "Zn", "zinc", 8.64, 8.62, 9.57, 1.01, 1.01, 1.03],
   // [31, "Ga", "gallium", 9.25, 9.22, 10.26, 1.10, 1.10, 1.12],
   // [32, "Ge", "germanium", 9.89, 9.86, 10.98, 1.19, 1.19, 1.22],
-  // [33, "As", "arsenic", 10.54, 10.51, 11.73, 1.28, 1.28, 1.32],
+  [33, "As", "arsenic", 10.54, 10.51, 11.73, 1.28, 1.28, 1.32],
   // [34, "Se", "selenium", 11.22, 11.18, 12.50, 1.38, 1.38, 1.42],
   // [35, "Br", "bromine", 11.92, 11.88, 13.29, 1.48, 1.48, 1.53],
   // [36, "Kr", "krypton", 12.65, 12.60, 14.11, 1.59, 1.59, 1.64],
@@ -38,7 +33,7 @@ const ELEMENTAL_LINES = [
   // [47, "Ag", "silver", 22.16, 21.99, 24.94, 2.98, 2.98, 3.15, 3.35, 3.52],
   // [48, "Cd", "cadmium", 23.17, 22.98, 26.10, 3.13, 3.13, 3.32, 3.53, 3.72],
   // [49, "In", "indium", 24.21, 24.00, 27.28, 3.29, 3.28, 3.49, 3.71, 3.92],
-  // [50, "Sn", "tin", 25.27, 25.04, 28.49, 3.44, 3.44, 3.66, 3.90, 4.13],
+  [50, "Sn", "tin", 25.27, 25.04, 28.49, 3.44, 3.44, 3.66, 3.90, 4.13],
   // [51, "Sb", "antimony", 26.36, 26.11, 29.73, 3.60, 3.60, 3.84, 4.10, 4.35],
   // [52, "Te", "tellurium", 27.47, 27.20, 31.00, 3.77, 3.76, 4.03, 4.30, 4.57],
   // [53, "I", "iodine", 28.61, 28.32, 32.29, 3.94, 3.93, 4.22, 4.51, 4.80],
@@ -67,10 +62,10 @@ const ELEMENTAL_LINES = [
   // [76, "Os", "osmium", 63.00, 61.49, 71.41, 8.91, 8.84, 10.36, 10.60, 12.10, 1.91],
   // [77, "Ir", "iridium", 64.90, 63.29, 73.56, 9.18, 9.10, 10.71, 10.92, 12.51, 1.98],
   // [78, "Pt", "platinum", 66.83, 65.11, 75.75, 9.44, 9.36, 11.07, 11.25, 12.94, 2.05],
-  // [79, "Au", "gold", 68.80, 66.99, 77.98, 9.71, 9.63, 11.44, 11.58, 13.38, 2.12],
-  // [80, "Hg", "mercury", 70.82, 68.90, 80.25, 9.99, 9.90, 11.82, 11.92, 13.83, 2.20],
+  [79, "Au", "gold", 68.80, 66.99, 77.98, 9.71, 9.63, 11.44, 11.58, 13.38, 2.12],
+  [80, "Hg", "mercury", 70.82, 68.90, 80.25, 9.99, 9.90, 11.82, 11.92, 13.83, 2.20],
   // [81, "Tl", "thallium", 72.87, 70.83, 82.58, 10.27, 10.17, 12.21, 12.27, 14.29, 2.27],
-  // [82, "Pb", "lead", 74.97, 72.80, 84.94, 10.55, 10.45, 12.61, 12.62, 14.76, 2.35],
+  [82, "Pb", "lead", 74.97, 72.80, 84.94, 10.55, 10.45, 12.61, 12.62, 14.76, 2.35],
   // [83, "Bi", "bismuth", 77.11, 74.81, 87.34, 10.84, 10.73, 13.02, 12.98, 15.25, 2.42],
   // [84, "Po", "polonium", 79.29, 76.86, 89.80, 11.13, 11.02, 13.45, 13.34, 15.74],
   // [85, "At", "astatine", 81.52, 78.95, 92.30, 11.43, 11.30, 13.88, 16.25],
@@ -82,6 +77,57 @@ const ELEMENTAL_LINES = [
   // [91, "Pa", "protactinium", 95.87, 92.29, 108.43, 13.29, 13.12, 16.70, 16.02, 19.57, 3.08],
   // [92, "U", "uranium", 98.44, 94.67, 111.30, 13.61, 13.44, 17.22, 16.43, 20.17, 3.17]
 ];
+const ELEM_KEYS = ['number', 'symbol', 'name', 'Kα1', 'Kα2', 'Kβ', 'Lα1', 'Lα2', 'Lβ1', 'Lβ2', 'Lγ', 'Mα'];
+const KEV_MAX = 30; // Manfred Schreiner: "with our XRF devices, we can't detect anything above 30 keV"
+const ELEM_TOL = 0.2;
+
+
+function smooth(y, s){
+  var yFilt = [...y];
+    for (var i=0; i<y.length; i++){
+      var lower = Math.max(i-s, 0);
+      var upper = Math.min(i+s, y.length);
+      yFilt[i] = y.slice(lower, upper).reduce((a, b) => a+b) / (upper-lower);
+    }
+  return yFilt;
+}
+
+function findPeaksLocalMax(x, y) {
+  const SIGMA = 15;
+  const WINDOW_SIZE = 50;
+  const D = 10;
+
+  var yFilt = smooth(y, SIGMA);
+
+  var peaks = [];
+
+  var curMax = 0;
+  var curMaxIdx = 0;
+  for (var i=0; i<yFilt.length; i++){
+    var lower = Math.max(0,i-WINDOW_SIZE/2);
+    var upper = Math.min(yFilt.length,i+WINDOW_SIZE/2);
+    var window = yFilt.slice(lower, upper);
+    var wMax = Math.max(...window);
+    var iMax = window.indexOf(wMax);
+    var wMin = Math.min(...window);
+    var wMean = window.reduce((a, b) => a+b) / window.length;
+
+    if (wMax > curMax && 
+      iMax > Math.round(window.length/3) && 
+      iMax < window.length-Math.round(window.length/3) &&
+      wMax > wMean+D){
+      curMax = wMax;
+      curMaxIdx = lower + iMax;
+    }
+    else if(wMax < curMax && curMax > 0) {
+      peaks.push({x: x[curMaxIdx],
+                  y: y[curMaxIdx]});
+      curMax = 0;
+    }
+  }
+
+  return peaks;
+}
 
 
 function showSpectrum(jcampUrl, targetElementId, insertionMode='replace', smoothing=5) {
@@ -105,7 +151,7 @@ function showSpectrum(jcampUrl, targetElementId, insertionMode='replace', smooth
     var deltax = 0;
     // first pass: get metadata
     jcampLines.some((line) => {
-      elems = line.split(/= /);
+      var elems = line.split(/= /);
       if (elems.length >= 2){
         if (elems[0] == '##XUNITS')
           xunits = elems[1];
@@ -119,10 +165,11 @@ function showSpectrum(jcampUrl, targetElementId, insertionMode='replace', smooth
       return xunits != '' && yunits != '' && deltax !=0 && datatype!='';  //if we have read these values, we are done.
     });
     // for xrf spectra, we want to show elemental lines, which requires some extra computations
-    isXRF = datatype.toUpperCase().includes('XRF');
+    var isXRF = datatype.toUpperCase().includes('XRF');
+    
     // second pass: get data (needs some of the metadata)
     jcampLines.forEach((line) => {
-      elems = line.split(/ (.+)/);
+      var elems = line.split(/ (.+)/);
       if (elems.length >= 2){
         if (!isNaN(elems[0]) && !isNaN(elems[1])){
           var point = {};
@@ -133,38 +180,59 @@ function showSpectrum(jcampUrl, targetElementId, insertionMode='replace', smooth
       }
     });
 
-    // smooth the spectrum
-    const s = Math.floor(smoothing / 2);
-    var y = spectralData.map((p) => p[yunits]);
-    var yFilt = [...y];
-    for (var i=0; i<y.length; i++){
-      var lower = Math.max(i-s, 0);
-      var upper = Math.min(i+s, y.length);
-      yFilt[i] = y.slice(lower, upper).reduce((a, b) => a+b) / (upper-lower);
+
+    if (isXRF){
+      // cut off uninteresting part
+      var i_cut = 0;
+      for(var i=0; i<spectralData.length; i++){
+        if (spectralData[i][xunits] > KEV_MAX){
+          i_cut = i;
+          break;
+        }
+      }
+      spectralData = spectralData.slice(0, i_cut);
+
+
+      // add peaks
+      var peaks = findPeaksLocalMax(spectralData.map((p) => p[xunits]), spectralData.map((p) => p[yunits]));
+
+      var elemLines = {};
+      for(var i=0; i<peaks.length; i++){
+        for(var j=0; j<ELEMENTAL_LINES.length; j++){
+          var elem = ELEMENTAL_LINES[j];
+          for(var k=3; k<elem.length; k++){
+            if(elem[k] < KEV_MAX){
+              if(Math.abs(elem[k] - peaks[i].x) < ELEM_TOL){
+                if (peaks[i].x in elemLines){
+                  if (!elemLines[peaks[i].x].elements.includes(elem[1]))
+                    elemLines[peaks[i].x].elements.push(elem[1]);
+                } else{
+                  elemLines[peaks[i].x] = {
+                    x: peaks[i].x,
+                    y: peaks[i].y,
+                    elements: [elem[1]]
+                  };
+                }                
+              }
+            }
+          }
+        }
+      }
+      elemLines = Object.values(elemLines);
+      for(var i=0; i<elemLines.length; i++){
+        elemLines[i].label = elemLines[i].elements.join(', ');
+      }
     }
+
+
+    // smooth the spectrum
+    var yFilt = smooth(spectralData.map((p) => p[yunits]), Math.floor(smoothing / 2));
+    var yMax = Math.max(...yFilt);
     // write the smoothed values back to the original spectrum.. i am sure there is a more elegant way for this.
     for(var i=0; i<spectralData.length; i++){
       spectralData[i][yunits] = yFilt[i];
     }
 
-
-    // xrf specific stuff
-    if (isXRF){
-      //seems like in our applications, only the first half of the spectrum is interesting (TODO: check if this is true)
-      spectralData = spectralData.slice(0, spectralData.length/2);
-
-      // TODO: add peak lines. For demonstration, nuw just the lines of some important elements are drawn..
-      var peaks = ELEMENTAL_LINES.map((row) => {
-        return {
-          number: row[0],
-          symbol: row[1],
-          name: row[2],
-          kAlpha1: row[3],
-          kAlpha2: row[4],
-          kBeta: row[5]
-        }
-      })
-    }
     
     //make the plot
     var plotmarks = [
@@ -175,13 +243,25 @@ function showSpectrum(jcampUrl, targetElementId, insertionMode='replace', smooth
         sort: xunits
       })];
     if (isXRF){
-      plotmarks.push(Plot.ruleX(peaks, {x: 'kAlpha1'}),
-                     Plot.text(peaks, {x: 'kAlpha1', y: -10, text: 'symbol'}));
+      plotmarks.push(Plot.ruleX(elemLines, {x: 'x', 
+                                            y1: 0,
+                                            y2: yMax,
+                                            stroke: '#5A7A7B'}));
+      plotmarks.push(Plot.text(elemLines, {x: 'x', 
+                                           y: 0, 
+                                           text: 'label', 
+                                           textAnchor: 'end',
+                                           rotate: -60,
+                                           dy: 5,
+                                           dx: -5,
+                                           stroke: '#EC8955',
+                                           fontSize: 8}));
     }
     
     var plot  = Plot.plot({
       y: {
-        grid: true
+        grid: true,
+        domain: [-99, yMax]
       },
       x: {
         reverse: deltax<0
