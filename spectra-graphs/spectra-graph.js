@@ -192,36 +192,36 @@ function showSpectrum(jcampUrl, targetElementId, insertionMode='replace', width=
       }
       spectralData = spectralData.slice(0, i_cut);
 
+      // simon, 26.7.2023 - remove everything related to elemental lines
+      // // add peaks
+      // var peaks = findPeaksLocalMax(spectralData.map((p) => p[xunits]), spectralData.map((p) => p[yunits]));
 
-      // add peaks
-      var peaks = findPeaksLocalMax(spectralData.map((p) => p[xunits]), spectralData.map((p) => p[yunits]));
-
-      var elemLines = {};
-      for(var i=0; i<peaks.length; i++){
-        for(var j=0; j<ELEMENTAL_LINES.length; j++){
-          var elem = ELEMENTAL_LINES[j];
-          for(var k=3; k<elem.length; k++){
-            if(elem[k] < KEV_MAX){
-              if(Math.abs(elem[k] - peaks[i].x) < ELEM_TOL){
-                if (peaks[i].x in elemLines){
-                  if (!elemLines[peaks[i].x].elements.includes(elem[1]))
-                    elemLines[peaks[i].x].elements.push(elem[1]);
-                } else{
-                  elemLines[peaks[i].x] = {
-                    x: peaks[i].x,
-                    y: peaks[i].y,
-                    elements: [elem[1]]
-                  };
-                }                
-              }
-            }
-          }
-        }
-      }
-      elemLines = Object.values(elemLines);
-      for(var i=0; i<elemLines.length; i++){
-        elemLines[i].label = elemLines[i].elements.join(', ');
-      }
+      // var elemLines = {};
+      // for(var i=0; i<peaks.length; i++){
+      //   for(var j=0; j<ELEMENTAL_LINES.length; j++){
+      //     var elem = ELEMENTAL_LINES[j];
+      //     for(var k=3; k<elem.length; k++){
+      //       if(elem[k] < KEV_MAX){
+      //         if(Math.abs(elem[k] - peaks[i].x) < ELEM_TOL){
+      //           if (peaks[i].x in elemLines){
+      //             if (!elemLines[peaks[i].x].elements.includes(elem[1]))
+      //               elemLines[peaks[i].x].elements.push(elem[1]);
+      //           } else{
+      //             elemLines[peaks[i].x] = {
+      //               x: peaks[i].x,
+      //               y: peaks[i].y,
+      //               elements: [elem[1]]
+      //             };
+      //           }                
+      //         }
+      //       }
+      //     }
+      //   }
+      // }
+      // elemLines = Object.values(elemLines);
+      // for(var i=0; i<elemLines.length; i++){
+      //   elemLines[i].label = elemLines[i].elements.join(', ');
+      // }
     }
 
 
@@ -249,22 +249,23 @@ function showSpectrum(jcampUrl, targetElementId, insertionMode='replace', width=
     var xParams = {
       reverse: deltax<0
     };
-    if (isXRF){
-      plotmarks.push(Plot.ruleX(elemLines, {x: 'x', 
-                                            y1: 0,
-                                            y2: yMax,
-                                            stroke: '#5A7A7B'}));
-      plotmarks.push(Plot.text(elemLines, {x: 'x', 
-                                           y: 0, 
-                                           text: 'label', 
-                                           textAnchor: 'end',
-                                           rotate: -60,
-                                           dy: 5,
-                                           dx: -5,
-                                           stroke: '#EC8955',
-                                           fontSize: 8}));
-      yParams.domain = [-99, yMax];
-    }
+    // simon, 26.7.2023 - remove everything related to elemental lines
+    // if (isXRF){
+    //   plotmarks.push(Plot.ruleX(elemLines, {x: 'x', 
+    //                                         y1: 0,
+    //                                         y2: yMax,
+    //                                         stroke: '#5A7A7B'}));
+    //   plotmarks.push(Plot.text(elemLines, {x: 'x', 
+    //                                        y: 0, 
+    //                                        text: 'label', 
+    //                                        textAnchor: 'end',
+    //                                        rotate: -60,
+    //                                        dy: 5,
+    //                                        dx: -5,
+    //                                        stroke: '#EC8955',
+    //                                        fontSize: 8}));
+    //   yParams.domain = [-99, yMax];
+    // }
 
     
     
