@@ -8,19 +8,13 @@
     <body>
         <h1>Spectrum viewer</h1>
         <div>
-            <button type="button" onclick="showSpectrum('http://localhost/ditah/testspectra/FTIR.MP01.jdx', 'graphcontainer')">Show FTIR.MP01</button>
-            <button type="button" onclick="showSpectrum('http://localhost/ditah/testspectra/XRF.MP01.jdx', 'graphcontainer', 'replace')">Show XRF.MP01</button>
-            <button type="button" onclick="showSpectrum('http://localhost/ditah/testspectra/RAMAN.MP01.jdx', 'graphcontainer')">Show RAMAN.MP01</button>
+            Select example
         </div>
         <div>
-            <button type="button" onclick="showSpectrum('http://localhost/ditah/testspectra/FTIR.MP02.jdx', 'graphcontainer')">Show FTIR.MP02</button>
-            <button type="button" onclick="showSpectrum('http://localhost/ditah/testspectra/XRF.MP02.jdx', 'graphcontainer', 'replace')">Show XRF.MP02</button>
-            <button type="button" onclick="showSpectrum('http://localhost/ditah/testspectra/RAMAN.MP02.jdx', 'graphcontainer')">Show RAMAN.MP02</button>
-        </div>
-        <div>
-            <button type="button" onclick="showSpectrum('http://localhost/ditah/testspectra/FTIR.MP03.jdx', 'graphcontainer')">Show FTIR.MP03</button>
-            <button type="button" onclick="showSpectrum('http://localhost/ditah/testspectra/XRF.MP03.jdx', 'graphcontainer', 'replace')">Show XRF.MP03</button>
-            <button type="button" onclick="showSpectrum('http://localhost/ditah/testspectra/RAMAN.MP03.jdx', 'graphcontainer')">Show RAMAN.MP03</button>
+            <button type="button" onclick="showSpectrum('http://localhost/m3r/examplespectra/FTIR.MP2.jdx', 'graphcontainer')">FTIR</button>
+            <button type="button" onclick="showSpectrum('http://localhost/m3r/examplespectra/Slav_8_1v_MP2_schwarz.1.dx', 'graphcontainer')">FTIR - multiple per line</button>
+            <button type="button" onclick="showSpectrum('http://localhost/m3r/examplespectra/XRF.MP2.jdx', 'graphcontainer', 'replace')">XRF.MP02</button>
+            <button type="button" onclick="showSpectrum('http://localhost/m3r/examplespectra/RAMAN.MP2.jdx', 'graphcontainer')">RAMAN.MP02</button>
         </div>
         <div id="graphcontainer"></div>
     </body>

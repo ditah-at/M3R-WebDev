@@ -144,43 +144,62 @@ function showSpectrum(jcampUrl, targetElementId, insertionMode='replace', width=
     // parse jcamp file
     var jcampLines = d.split(/\r\n|\n/);
     var datatype = '';
-    var isXRF = false;
     var spectralData = [];
     var xunits = '';
     var yunits = '';
     var deltax = 0;
-    // first pass: get metadata
-    jcampLines.some((line) => {
-      var elems = line.split(/= /);
-      if (elems.length >= 2){
-        if (elems[0] == '##XUNITS')
-          xunits = elems[1];
-        else if (elems[0] == '##YUNITS')
-          yunits = elems[1];
-        else if (elems[0] == '##DELTAX')
-          deltax = Number(elems[1]);
-        else if (elems[0] == '##DATA TYPE')
-          datatype = elems[1];
-      }
-      return xunits != '' && yunits != '' && deltax !=0 && datatype!='';  //if we have read these values, we are done.
-    });
-    // for xrf spectra, we want to show elemental lines, which requires some extra computations
-    var isXRF = datatype.toUpperCase().includes('XRF');
+    var xfactor = 1.0;
+    var yfactor = 1.0;
+    var startData = false;
     
-    // second pass: get data (needs some of the metadata)
     jcampLines.forEach((line) => {
-      var elems = line.split(/ (.+)/);
-      if (elems.length >= 2){
-        if (!isNaN(elems[0]) && !isNaN(elems[1])){
-          var point = {};
-          point[xunits] = Number(elems[0]);
-          point[yunits] = Number(elems[1]);
-          spectralData.push(point);
+      if (!startData){      // get metadata
+        var elems = line.split(/=\s*/);
+        if (elems.length >= 2){
+          switch(elems[0]){
+            case '##XUNITS':
+              xunits = elems[1];
+              break;
+            case '##YUNITS':
+              yunits = elems[1];
+              break;
+            case '##DELTAX':
+              deltax = elems[1];
+              break;
+            case '##DATA TYPE':
+              datatype = elems[1];
+              break;
+            case '##XFACTOR':
+              xfactor = elems[1];
+              break;
+            case '##YFACTOR':
+              yfactor = elems[1];
+              break;
+            case '##XYDATA':
+              startData = true;
+          }
+        }
+      } else {          // now read data
+        var elems = line.split(/[\s\t\+]+/);
+        if (elems.length >= 2){
+          var x0 = Number(elems[0])
+          for(let i=1; i<elems.length; i++){
+            var x = x0 + (i-1) * deltax;
+            var y = Number(elems[i])
+            if (!isNaN(x) && !isNaN(y)){
+              var point = {};
+              point[xunits] = x*xfactor;
+              point[yunits] = y*yfactor;
+              spectralData.push(point);
+            }
+          }
         }
       }
     });
 
 
+    // for xrf spectra, we want to show elemental lines, which requires some extra computations
+    var isXRF = datatype.toUpperCase().includes('XRF');
     if (isXRF){
       // cut off uninteresting part
       var i_cut = 0;
